@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "如果你在研究中使用了本軟體，請依下列資訊引用。"
+title: "voice-severity-bench"
+abstract: "Cepstral voice features against continuous severity ratings: configurable MFCC front ends, ablation with repeated cross-validation, OLS inference, diagnostics and agreement analysis."
+type: software
+authors:
+  - name: "RL"
+version: "0.1.0"
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/recklight/voice-severity-bench"
+keywords:
+  - mfcc
+  - voice-quality
+  - ablation-study
+  - regression-diagnostics
+  - cross-validation
+  - agreement-analysis

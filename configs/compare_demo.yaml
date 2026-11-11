@@ -1,0 +1,22 @@
+# Settings of examples/compare_feature_families.py: feature files from four
+# front ends compared on the same repeated folds of a synthetic corpus.
+data:
+  dataset: data/synthetic/dataset.csv
+synthetic:
+  n_speakers: 20
+  n_recordings_per_speaker: 3
+  duration_s: 1.0
+audio:
+  rms_dbfs: -26.0                # level differences between recordings cannot reach c0
+model:
+  name: ridge
+  tune: true
+  impute: median                 # the periodicity measures can be undefined
+  block_selection: true          # the band file has four blocks; the inner loop picks one
+  ridge_alphas: [0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]
+evaluation:
+  n_splits: 5
+  n_inner_splits: 5
+  n_repeats: 5
+analysis:
+  n_resamples: 2000

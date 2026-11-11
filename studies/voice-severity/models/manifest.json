@@ -1,0 +1,83 @@
+{
+  "A4": {
+    "repo": "facebook/hubert-base-ls960",
+    "revision": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+    "license": "apache-2.0",
+    "files": {
+      "pytorch_model.bin": {
+        "bytes": 377569754,
+        "sha256": "062249fffb353eab67547a2fbc129f7c31a2f459faf641b19e8fb007cc5c48ad",
+        "hub_sha256": "062249fffb353eab67547a2fbc129f7c31a2f459faf641b19e8fb007cc5c48ad"
+      },
+      "config.json": {
+        "bytes": 1385,
+        "sha256": "56be398848bbd9cbc720172b0d45b2f01cac7652f2968f0f31f5faf9f2986acc",
+        "hub_sha256": null
+      },
+      "preprocessor_config.json": {
+        "bytes": 213,
+        "sha256": "4a93853b74278b7c769d07f5a861e5d12ceb5db2bced5620d335f87238cb9e86",
+        "hub_sha256": null
+      },
+      "README.md": {
+        "bytes": 2596,
+        "sha256": "c59fb00d253ab5ae5d288f130c64dddf3b7af3d5ce35c96395ac7a3db5db88f5",
+        "hub_sha256": null
+      }
+    }
+  },
+  "A5": {
+    "repo": "microsoft/wavlm-base-plus",
+    "revision": "4c66d4806a428f2e922ccfa1a962776e232d487b",
+    "license": null,
+    "files": {
+      "pytorch_model.bin": {
+        "bytes": 377617425,
+        "sha256": "3bb273a6ace99408b50cfc81afdbb7ef2de02da2eab0234e18db608ce692fe51",
+        "hub_sha256": "3bb273a6ace99408b50cfc81afdbb7ef2de02da2eab0234e18db608ce692fe51"
+      },
+      "config.json": {
+        "bytes": 2232,
+        "sha256": "fea6df1c2700a3954fc07e70588aecc9055eeb28db2ff57151a2db0d19180ed4",
+        "hub_sha256": null
+      },
+      "preprocessor_config.json": {
+        "bytes": 215,
+        "sha256": "99272fe8ccfab114b68b478681ea47ee3a1ce62bb788cb92dd6e4f69fb1f1da2",
+        "hub_sha256": null
+      },
+      "README.md": {
+        "bytes": 3904,
+        "sha256": "d417fc16b08e2f66f0af6b371e47a5f9f1f596f6c1c593f1214d360c41d7a27e",
+        "hub_sha256": null
+      }
+    }
+  },
+  "A6": {
+    "repo": "openai/whisper-small",
+    "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+    "license": "apache-2.0",
+    "files": {
+      "model.safetensors": {
+        "bytes": 966995080,
+        "sha256": "1d7734884874f1a1513ed9aa760a4f8e97aaa02fd6d93a3a85d27b2ae9ca596b",
+        "hub_sha256": "1d7734884874f1a1513ed9aa760a4f8e97aaa02fd6d93a3a85d27b2ae9ca596b"
+      },
+      "config.json": {
+        "bytes": 1967,
+        "sha256": "e6a2b489da1b5aed65a8eb8d1e7466fa867ad5643a8bc138ba708bd56b2875c4",
+        "hub_sha256": null
+      },
+      "preprocessor_config.json": {
+        "bytes": 184990,
+        "sha256": "9b5cd03a36fbb8a627c64d98a5b5b126ead95a77720723944487311f0110b666",
+        "hub_sha256": null
+      },
+      "README.md": {
+        "bytes": 20153,
+        "sha256": "967fa44eefe5d3436e040b0f171fc54da67aad96923bae10af37dac9be5bb6b0",
+        "hub_sha256": null
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Small, fast two-class detection (healthy / dysphonic) on the synthetic labels.
+data:
+  dataset: data/synthetic/dataset.csv
+  task: classification
+  target: label
+synthetic:
+  n_speakers: 8
+  n_recordings_per_speaker: 3
+  duration_s: 0.5
+model:
+  name: logistic
+ablation:
+  n_ceps: [12]
+  delta_order: [0, 2]
+  models: [logistic]
+  n_repeats: 2
+evaluation:
+  # Eight speakers leave three in the smaller class, and every fold needs one of them.
+  n_splits: 3

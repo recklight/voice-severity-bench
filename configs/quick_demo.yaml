@@ -1,0 +1,14 @@
+# Small, fast settings for synthetic data (examples, smoke tests, CI).
+data:
+  dataset: data/synthetic/dataset.csv
+synthetic:
+  n_speakers: 8
+  n_recordings_per_speaker: 3
+  duration_s: 0.5
+ablation:
+  n_ceps: [12]
+  delta_order: [0, 2]
+  models: [ridge]
+  n_repeats: 2
+evaluation:
+  n_splits: 4

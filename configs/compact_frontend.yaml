@@ -1,0 +1,8 @@
+# A common 25 ms / 10 ms MFCC recipe: 26 filters from 0 Hz, periodic Hamming window, log energy.
+frontend:
+  frame_ms: 25.0
+  hop_ms: 10.0
+  window: hamming
+  n_mels: 26
+  fmin_hz: 0.0
+  energy_term: log_energy

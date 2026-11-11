@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+
+# Testing / linting caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Data and results stay out of git: recordings sit wherever data.dataset points,
+# runs go under outputs/. The folders themselves are kept through .gitkeep.
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+examples/output/
+# Tables dropped in the project root for a quick regress/stepwise run.
+/*.csv
+*.wav
+*.mat
+*.mfc
+*.htk
+*.dat
+*.bin
+*.npy
+*.npz
+*.joblib
+*.pt
+*.xlsx
+*.xls
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# The study keeps its recordings, model weights and outputs out of git; the two
+# manifests that the freeze checks stay in.
+studies/voice-severity/data/*
+!studies/voice-severity/data/pvqd_manifest.json
+studies/voice-severity/models/*
+!studies/voice-severity/models/manifest.json
+studies/voice-severity/s0_audit/out/
+studies/voice-severity/s1_segments/*.csv
+studies/voice-severity/s1_segments/*.json
+studies/voice-severity/s1_segments/cache/
+studies/voice-severity/s1_segments/figures/
+studies/voice-severity/features/out/
+studies/voice-severity/features/index/
+studies/voice-severity/features/cache/
+studies/voice-severity/experiments/results*/
+studies/voice-severity/experiments/analysis*/
+studies/voice-severity/experiments/cache/
+studies/voice-severity/**/*.log
+paper/build/

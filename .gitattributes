@@ -1,0 +1,38 @@
+* text=auto eol=lf
+
+*.py    text diff=python
+*.md    text
+*.toml  text
+*.yaml  text
+*.yml   text
+*.cff   text
+
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.npy   binary
+*.npz   binary
+*.mat   binary
+*.wav   binary
+*.joblib binary
+*.pt    binary
+*.pdf   binary
+*.tex   text
+*.bib   text
+*.sh    text eol=lf
+
+# The frozen files of the study keep their bytes and line endings:
+# experiments/freeze.json holds the SHA-256 of each of them.
+studies/voice-severity/analysis_plan.md -text
+studies/voice-severity/analysis_plan.yaml -text
+studies/voice-severity/data/pvqd_manifest.json -text
+studies/voice-severity/models/manifest.json -text
+studies/voice-severity/s0_audit/decisions.csv -text
+studies/voice-severity/features/common.py -text
+studies/voice-severity/features/extract_clinical.py -text
+studies/voice-severity/features/extract_mfcc_metadata.py -text
+studies/voice-severity/features/extract_ssl.py -text
+studies/voice-severity/experiments/freeze.py -text
+studies/voice-severity/experiments/harness.py -text
+studies/voice-severity/experiments/analyze.py -text
+studies/voice-severity/experiments/freeze.json -text

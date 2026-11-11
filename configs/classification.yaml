@@ -1,0 +1,8 @@
+# Two-class detection (healthy / dysphonic) from the label column instead of the severity rating.
+data:
+  task: classification
+  target: label
+model:
+  name: logistic
+ablation:
+  models: [logistic, svc]

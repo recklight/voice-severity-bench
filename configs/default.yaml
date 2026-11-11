@@ -1,0 +1,98 @@
+# Default configuration.  Every key is optional; omitted keys keep these values.
+# Override single values on the command line with  --set section.key=value
+seed: 0                          # master seed: folds, model initialization and synthetic data
+data:
+  dataset: data/dataset.csv      # placeholder: point it at your own data
+  task: regression               # regression | classification
+  target: severity               # column of dataset.csv holding the rating (or the class name)
+synthetic:
+  n_speakers: 20                 # synthetic speakers (cross-validation groups)
+  n_recordings_per_speaker: 3    # recordings per speaker
+  duration_s: 1.0                # length of each recording in seconds
+  sample_rate: 16000             # sampling rate of the written WAV files (Hz)
+  f0_range_hz: [90.0, 240.0]     # range of the speakers' mean pitch
+  within_speaker_sd: 6.0         # spread of a recording's severity around its speaker's (points)
+  jitter_range: [0.002, 0.03]    # relative period perturbation at severity 0 and 100
+  shimmer_range: [0.02, 0.3]     # relative amplitude perturbation at severity 0 and 100
+  hnr_range_db: [30.0, 6.0]      # harmonics-to-noise ratio at severity 0 and 100 (dB)
+  label_threshold: 35.0          # severity at or above which a recording is 'dysphonic'
+audio:
+  sample_rate: null              # resample every file to this rate (Hz); null keeps each file's rate
+  trim_s: 0.0                    # seconds cut from both ends of every recording
+  trim_silence: false            # cut leading and trailing silence by endpoint detection
+  rms_dbfs: null                 # scale every recording to this RMS level (dBFS); null keeps its level
+frontend:
+  frame_ms: 30.0                 # frame length in milliseconds
+  hop_ms: 15.0                   # frame advance in milliseconds
+  n_fft: null                    # FFT size; null = next power of two holding a frame
+  window: hamming_symmetric      # hamming_symmetric | hamming | hann | rectangular
+  preemphasis: 0.97              # pre-emphasis coefficient (0 disables it)
+  n_mels: 23                     # triangular mel filters
+  fmin_hz: 64.0                  # lowest filterbank edge
+  fmax_hz: null                  # highest filterbank edge; null = Nyquist
+  n_ceps: 12                     # cepstral coefficients c1..cM (c0 excluded)
+  energy_term: c0                # c0 | log_energy | none
+  lifter: 22                     # sinusoidal lifter length (0 disables it)
+  log_floor: 1.0e-10             # floor of filterbank energies before the logarithm
+  delta_order: 2                 # 0 static (13 dims) | 1 + deltas (26) | 2 + delta-deltas (39)
+  delta_widths: [7, 5]           # regression windows of the delta and the delta-delta
+pooling:
+  statistics: [mean, std]        # mean | std | min | max | percentile | skew | kurtosis
+  percentiles: [10.0, 50.0, 90.0]  # levels used by the 'percentile' statistic
+  normalization: none            # none | cmn | cmvn, per recording before pooling
+analysis:
+  ci_level: 0.95                 # confidence level of coefficient and correlation intervals
+  correction: holm               # holm | fdr_bh
+  p_enter: 0.05                  # stepwise entry threshold (partial F test)
+  p_remove: 0.1                  # stepwise removal threshold (>= p_enter)
+  stepwise_start: empty          # empty | full
+  max_degree: 8                  # highest degree of the polynomial order sweep
+  polynomial_basis: orthogonal   # orthogonal | centered | raw
+  order_criterion: kfold_rmse    # kfold_rmse | loocv_rmse | bic | aic
+  n_resamples: 10000             # bootstrap resamples of the compare intervals
+ablation:
+  n_ceps: [12, 6, 18]            # cepstral coefficients to compare (first = baseline)
+  n_mels: []                     # filter counts to compare; [] keeps frontend.n_mels
+  delta_order: [0, 1, 2]         # 13 / 26 / 39 dimensional frames
+  energy_term: []                # energy terms to compare; [] keeps frontend.energy_term
+  frame_hop_ms: []               # [frame_ms, hop_ms] pairs to compare
+  lifter: []                     # lifter lengths to compare
+  statistics: []                 # pooling statistic sets to compare, e.g. [[mean, std], [mean]]
+  reducer: []                    # none | pca | lda (classification) to compare
+  models: [ridge, svr]           # estimators to compare
+  n_repeats: 3                   # repetitions of the k-fold split
+  metric: null                   # ranking metric; null = rmse (regression) or uar (classification)
+model:
+  name: ridge                    # linear | ridge | svr | random_forest | mlp | torch_mlp (regression); logistic | svc | random_forest | mlp | torch_mlp (classification)
+  reducer: none                  # none | pca | lda
+  n_components: null             # reducer size; null = 95 % variance (PCA) or n_classes - 1 (LDA)
+  tune: false                    # nested cross-validation over a small hyperparameter grid
+  impute: none                   # none | median (training-fold median plus missing-value indicators)
+  class_weight: null             # balanced: classes weighted by training-fold frequency (logistic, svc, random_forest)
+  block_selection: false         # blocked feature files: choose the block in the inner loop (needs tune)
+  ridge_alpha: 1.0               # ridge penalty
+  ridge_alphas: []               # penalties searched by tune; [] keeps 0.01, 0.1, 1, 10, 100
+  svr_c: 1.0                     # support vector regression penalty
+  svr_epsilon: 0.1               # insensitive tube width, in standard deviations of the target
+  logistic_c: 1.0                # inverse regularization of logistic regression
+  svc_c: 1.0                     # inverse regularization of the support vector classifier
+  n_estimators: 200              # trees of the random forest
+  max_depth: null                # depth limit of the trees; null = unlimited
+  hidden_units: [100]            # hidden layer sizes of the perceptrons
+  activation: logistic           # logistic | relu | tanh
+  mlp_alpha: 0.0001              # L2 penalty of the perceptrons
+  max_iter: 2000                 # iteration limit of the iterative scikit-learn estimators
+  early_stopping: false          # stop the scikit-learn perceptrons on a 10 % validation split
+  patience: 50                   # scikit-learn perceptrons: epochs without improvement (validation score, or training loss without early stopping)
+  learning_rate: 0.001           # initial learning rate of the perceptrons
+  batch_size: 32                 # mini-batch size of the PyTorch perceptron
+  n_epochs: 200                  # training epochs of the PyTorch perceptron
+evaluation:
+  n_splits: 5                    # cross-validation folds (grouped by speaker when possible)
+  n_inner_splits: 3              # folds of the inner tuning loop
+  n_repeats: 3                   # repetitions of the k-fold split in compare
+  positive_class: dysphonic      # class whose recall is the sensitivity (two classes)
+output:
+  root: outputs                  # run folders are created here when --out is not given
+  figure_format: png             # png | pdf | svg
+  dpi: 150                       # resolution of raster figures

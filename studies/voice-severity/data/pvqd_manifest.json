@@ -1,0 +1,1875 @@
+{
+ "dataset": "Perceptual Voice Qualities Database (PVQD)",
+ "contributor": "Patrick R. Walden",
+ "doi": "10.17632/9dz247gnyb.1",
+ "version": 1,
+ "licence": "CC BY 4.0",
+ "source": "https://data.mendeley.com/datasets/9dz247gnyb/1",
+ "retrieved": "2026-11-01",
+ "n_files": 310,
+ "total_bytes": 539487190,
+ "files": [
+  {
+   "path": "audio/BL01 ENSS.wav",
+   "size": 2417152,
+   "sha256": "c98e50f90453ec26cfe2e61acaf7a166848bfbbb2f4788c6e2f49281cee37e62",
+   "mendeley_file_id": "5183cb8f-77ff-418d-a4cc-e2eca48cb6a5"
+  },
+  {
+   "path": "audio/BL02 ENSS.wav",
+   "size": 2976816,
+   "sha256": "a1603f9d04b9c004b4f886c6eee8397d530c8f6a79eea2962f7b096f533b2b3b",
+   "mendeley_file_id": "73f751bc-10cd-4551-9f07-479e1ef2a8ac"
+  },
+  {
+   "path": "audio/BL03 ENSS.wav",
+   "size": 2905488,
+   "sha256": "989a72597e06da51d6da550812ebcd9f757bb5c1df98e5551015c5cd1ea9206c",
+   "mendeley_file_id": "7be55d9e-a714-4aaa-a34f-f342c26adbf5"
+  },
+  {
+   "path": "audio/BL04 ENSS.wav",
+   "size": 2281572,
+   "sha256": "1b9cbe68110865a7412b553f0ea18d47af0bc91a567b071e7081d539430ed70c",
+   "mendeley_file_id": "b2fc6003-7066-41f2-b7d1-099775f92591"
+  },
+  {
+   "path": "audio/BL05_ENSS.wav",
+   "size": 2260012,
+   "sha256": "0542fd172c21dd645144553d2274ef245c1aa66d871985d050f9193485b94643",
+   "mendeley_file_id": "88f84814-555e-43e7-85e3-c6bf4af5d367"
+  },
+  {
+   "path": "audio/BL06_ENSS.wav",
+   "size": 2083884,
+   "sha256": "591cb47e7db61b8ccc4316f7509c432826fe8bb3afb9f515a2569a8ac6ca6c17",
+   "mendeley_file_id": "3b9f163f-b186-4cf2-aff7-293cfc4fc7a2"
+  },
+  {
+   "path": "audio/BL07_ENSS.wav",
+   "size": 2107436,
+   "sha256": "7761e6dc85db2b08ca8d10d8236631bdeca1ebfa867785f9e79a6d2d65bf662d",
+   "mendeley_file_id": "d86b7e96-4989-40be-b62f-2cb6f37da3dc"
+  },
+  {
+   "path": "audio/BL08_ENSS.wav",
+   "size": 1950764,
+   "sha256": "88de2e6466e1676ea95bcd65d7ca2e19670bd65dbf136f15b4943dc847e7a8dd",
+   "mendeley_file_id": "5da66896-afd3-4597-ae65-2d21379f3140"
+  },
+  {
+   "path": "audio/BL09_ENSS.wav",
+   "size": 6259306,
+   "sha256": "4c9140643678054737cfc282effabaecf7b0bf1dc695507602f5fc4dee3b7ece",
+   "mendeley_file_id": "02f3193a-368c-4607-a00c-6747a8fc0f84"
+  },
+  {
+   "path": "audio/BL10_ENSS.wav",
+   "size": 3416100,
+   "sha256": "2ae4e3cf018602bd3fe8c68b3c3d0f78060ae5f0d7ea6d72630ca622d2f2bb7d",
+   "mendeley_file_id": "ccf014a4-125a-45b9-84c8-4cf3081555d1"
+  },
+  {
+   "path": "audio/BL11_ENSS.wav",
+   "size": 4761060,
+   "sha256": "d71ec65566ce15ed595249e6420d4f401c15ab61fbc9842f85bdcf1f91391df2",
+   "mendeley_file_id": "6de1ee64-4cd8-450c-8639-f65d1649faf8"
+  },
+  {
+   "path": "audio/BL12_ENSS.wav",
+   "size": 5508808,
+   "sha256": "985c4c45bb5c4946037046a2a91ff7c93140a1d5a5efb3518cce6782377de9ca",
+   "mendeley_file_id": "5c968f89-0dbf-45f6-acd4-33f7c739dbab"
+  },
+  {
+   "path": "audio/BL13_ENSS.wav",
+   "size": 2117620,
+   "sha256": "d3aac7ffb5c59f94aa9f1b7d4ab4ebcdc03e62ac6fb0131d82ff2c1f62b57529",
+   "mendeley_file_id": "8c733a42-7592-401c-8d23-e324bd458b1a"
+  },
+  {
+   "path": "audio/BL14_ENSS.wav",
+   "size": 1441140,
+   "sha256": "e86b5bced9e9278de2981d6b294eac9e245243d1258f4788758f4008edc917ec",
+   "mendeley_file_id": "ca40c649-e1d6-48d4-8a92-1044475cce34"
+  },
+  {
+   "path": "audio/BL16_ENSS.wav",
+   "size": 1655372,
+   "sha256": "f189fd38b77e63383a21efc44979207155754f374a90852fae557cb08ac83660",
+   "mendeley_file_id": "f21083c6-07ea-445e-980b-330552fc2be8"
+  },
+  {
+   "path": "audio/BL17_ENSS.wav",
+   "size": 2454610,
+   "sha256": "d50c5cd48a62a118155d3ce865b730368334c4d3db3f76ee9d69a5f009fc6aab",
+   "mendeley_file_id": "d0b49099-2427-463c-8c06-813b185d71d3"
+  },
+  {
+   "path": "audio/BL18_ENSS.wav",
+   "size": 2612098,
+   "sha256": "41b110ab241e1c5a7312bf7863a6271a7e97b346ac55c57ddc134dad06818248",
+   "mendeley_file_id": "ece9a6a1-5ef9-43d5-923c-cb736e1351e3"
+  },
+  {
+   "path": "audio/BL19_ENSS.wav",
+   "size": 2929814,
+   "sha256": "747dbc871abbb097fc16d2e65c82f66d04d7ba22ba9b9ef7cc7559c5ed4474d0",
+   "mendeley_file_id": "f2a947de-8a49-471b-a82f-e4f40cab3446"
+  },
+  {
+   "path": "audio/BL20_ENSS.wav",
+   "size": 2998230,
+   "sha256": "95a2f1e3271c42965cf9b7fd7afa537bd7de581280d79bda2d8de52db21858e0",
+   "mendeley_file_id": "7054f57e-36dc-489e-9017-ad911c01ae30"
+  },
+  {
+   "path": "audio/BL21_ENSS.wav",
+   "size": 2570534,
+   "sha256": "0b6a5ab278e8cb2a0472954c5a9a4941931aef7816f9248e38ba1775f65c421f",
+   "mendeley_file_id": "be209316-dbfc-41d7-9aa7-11c727e0cabd"
+  },
+  {
+   "path": "audio/LA10001_ENSS.wav",
+   "size": 2508726,
+   "sha256": "5d01f7c0249e285b4260b322393c3371a6eb4dc6010b9d439dba70a515f47320",
+   "mendeley_file_id": "f1dbebd0-631d-498f-a9a2-7ed20411fd1b"
+  },
+  {
+   "path": "audio/LA1001ENSS.wav",
+   "size": 2422854,
+   "sha256": "a026fb60ca2ec95054471eae5ec28d63b06eb1936e7ade3d5be43359c123484b",
+   "mendeley_file_id": "db232774-b4bb-4d2a-a74f-ed149a2a0f1c"
+  },
+  {
+   "path": "audio/LA1002ENSS.wav",
+   "size": 2331090,
+   "sha256": "829977b618c2061b8d84870d07d84cebe71731271c1f00d32c04b86eaf99a850",
+   "mendeley_file_id": "1b6ad2b3-7689-40af-8834-d62b35d665e9"
+  },
+  {
+   "path": "audio/LA1003ENSS.wav",
+   "size": 2503708,
+   "sha256": "5bea6d40743a8a4b665807b402405de8c8fb6304fb4ceda7d5e4ecc77f7d8ca5",
+   "mendeley_file_id": "2fd074b7-5732-4892-914a-041459569439"
+  },
+  {
+   "path": "audio/LA1005_ENSS.wav",
+   "size": 2135632,
+   "sha256": "0a74e6676fcbd1ea24909eedfa5b4c30abb2c77481a9ee18e57cdcd1871d4349",
+   "mendeley_file_id": "3faf3179-924c-46c0-b068-3f081cc6bd07"
+  },
+  {
+   "path": "audio/LA1009_ENSS.wav",
+   "size": 2720012,
+   "sha256": "f09dcf8f1291dad6245b6f885b3f6242b2aef7d22436265ded734f38c6ac9010",
+   "mendeley_file_id": "45048a93-dbf4-40c1-9662-209805516fec"
+  },
+  {
+   "path": "audio/LA2001_ENSS.wav",
+   "size": 2484132,
+   "sha256": "64ce6079c9e493664aa38b358a1307152607e4983d98b4bab8a6a0877ddc0bf2",
+   "mendeley_file_id": "2726c567-9a00-459c-9027-dc0d49961340"
+  },
+  {
+   "path": "audio/LA2004_ENSS.wav",
+   "size": 2919586,
+   "sha256": "ef62caf5dda545f859c8a22abf4d22f492f39cf5f92a2530412a7fbf2b41a633",
+   "mendeley_file_id": "31911162-b123-4967-9df5-48c32c08f542"
+  },
+  {
+   "path": "audio/LA2007_ENSS.wav",
+   "size": 1799144,
+   "sha256": "6b966b8145f50cfad93fe0be137b1918780787d15d51fc3826e381c5649847a7",
+   "mendeley_file_id": "f7328528-59dc-4277-84a1-6578e7fe03f3"
+  },
+  {
+   "path": "audio/LA5003 ENSS.wav",
+   "size": 2508348,
+   "sha256": "827b70042db1c8e050eedd0593223b2b5705d81024ff5ec5178410b8eb4de874",
+   "mendeley_file_id": "c0b1e8b5-a038-4b43-8cf0-f65f2bcc1528"
+  },
+  {
+   "path": "audio/LA7003_ENSS.wav",
+   "size": 1905620,
+   "sha256": "cdad087eb7f1d04436aaec3055cd8ad4bb1454c3c824214d0449e861aeed6869",
+   "mendeley_file_id": "4a11d7a7-0ba8-4a0e-850e-f2c09bcc1b3e"
+  },
+  {
+   "path": "audio/LA7004_ENSS.wav",
+   "size": 1914668,
+   "sha256": "baf7e6790f0851da217a6f15e3700131e79be0b59eb1d30c3ecafdcf4dda6f06",
+   "mendeley_file_id": "50d5ed71-9c3e-4fa8-b44d-9be976b8d2fa"
+  },
+  {
+   "path": "audio/LA7005_ENSS.wav",
+   "size": 1857346,
+   "sha256": "10875bed69c54bf293b9eda0ecc7221892ac290217c575ed56c3cd81182761c3",
+   "mendeley_file_id": "6bf7da2d-e2a8-4ad6-b87a-01c2c74c9bf1"
+  },
+  {
+   "path": "audio/LA7006_ENSS.wav",
+   "size": 2668792,
+   "sha256": "460466364900908a62fed44f5ce17dccfbbfdaf61a132c460885680c0f0333ff",
+   "mendeley_file_id": "0fb6f3d1-44c6-403b-846c-af58ee78a0c9"
+  },
+  {
+   "path": "audio/LA7007_ENSS.wav",
+   "size": 1464730,
+   "sha256": "cf80207ceff7a3b7939fa10f2a14508a3f7c76f53b8fb66710967feb23b6678e",
+   "mendeley_file_id": "240a342a-3c92-4d1d-a51d-996779282e25"
+  },
+  {
+   "path": "audio/LA7008_ENSS.wav",
+   "size": 1595954,
+   "sha256": "ba38976b27929b91c244a064e371667b8c63ace9433913fa735a3e0a4f0d99ec",
+   "mendeley_file_id": "068c814e-5135-4946-9852-18c6285d8a5c"
+  },
+  {
+   "path": "audio/LA7009_ENSS.wav",
+   "size": 1338886,
+   "sha256": "bcdf8a4fd4c665cc89d8623335ac44789663ed165613c4163def06e5c057e4e5",
+   "mendeley_file_id": "f3073c97-2527-4169-8fb5-c0866349534d"
+  },
+  {
+   "path": "audio/LA7011_ENSS.wav",
+   "size": 1705506,
+   "sha256": "73e6ce3c5b909f290495a9a6764885e44aed8f5ac288232eefb3ba6b57cadae3",
+   "mendeley_file_id": "90432f69-0d84-44d7-a7d9-91374789e6d8"
+  },
+  {
+   "path": "audio/LA7012_ENSS.wav",
+   "size": 4111562,
+   "sha256": "c2279674be379dc8ff7c51e1068d21ab3ae113386ce1337be4f232893a729368",
+   "mendeley_file_id": "81ce0552-320b-4609-b0ae-6340a1a7e562"
+  },
+  {
+   "path": "audio/LA8001_ENSS.wav",
+   "size": 3439238,
+   "sha256": "d442480e7d9e0e835b1c8b43eb508cf1b7e4b9d921c834f8fa7fd109ad793d89",
+   "mendeley_file_id": "c882e0ed-aad5-4b7b-9dac-bd8c9f4cf3ac"
+  },
+  {
+   "path": "audio/LA8002_ENSS.wav",
+   "size": 3826414,
+   "sha256": "bd3589c4677bd2ff0d547a4723a468f2d8698d4cf443726761adbb573104447d",
+   "mendeley_file_id": "a9314b7b-bcf0-4f16-844d-fee0aeff76c4"
+  },
+  {
+   "path": "audio/LA90026_ENSS.wav",
+   "size": 4054690,
+   "sha256": "d1aa27d212f273b59526a704c9e76b9659ca694efbdb2523de55c5a27b206c9f",
+   "mendeley_file_id": "d7a83496-efe3-4c5d-9af5-193fba72f454"
+  },
+  {
+   "path": "audio/LA9002_ENSS.wav",
+   "size": 2099046,
+   "sha256": "201477b39ce8a33746b4aae386ac150f4a4b5c7ae1f30c3889344bbd1498fef2",
+   "mendeley_file_id": "b0a7426a-9119-4cf7-807a-436499a3988a"
+  },
+  {
+   "path": "audio/LA9003_ENSS.wav",
+   "size": 2372562,
+   "sha256": "a971a7f76b4261fda54b5165236f15cba3ca1b3cc65e62b91a79ad7d26ff1950",
+   "mendeley_file_id": "e4c1b413-ca9e-4329-b999-e6eaadaab0fe"
+  },
+  {
+   "path": "audio/LA9004_ENSS.wav",
+   "size": 1854010,
+   "sha256": "32b00f21c875b2ace179643bf046ff947fcbc342d71d6a2e0b245d87120c92f4",
+   "mendeley_file_id": "31032705-5c50-4d25-a7fb-cff1a158fbe9"
+  },
+  {
+   "path": "audio/LA9006_ENSS.wav",
+   "size": 4437826,
+   "sha256": "bd3c9e52635700093c2df225ed02b8e645570e75e1a91848a31faaeba09b11da",
+   "mendeley_file_id": "fb78e45e-7829-490d-a3b8-5ecea5722246"
+  },
+  {
+   "path": "audio/LA9007_ENSS.wav",
+   "size": 4037528,
+   "sha256": "9bc5717c34008b18a9ce4755d31980c276af21645e5266a422b929825b70495a",
+   "mendeley_file_id": "2f7cbc8e-4c83-43a1-bde5-28064175e39d"
+  },
+  {
+   "path": "audio/LA9008_ENSS.wav",
+   "size": 3794242,
+   "sha256": "8406561825768a5503715edb5ce94a3a8ce48b586ff3dce42605f0180ff29bc1",
+   "mendeley_file_id": "479f1a3c-9f16-45de-9b60-3d1e77417953"
+  },
+  {
+   "path": "audio/LA9009_ENSS.wav",
+   "size": 3575524,
+   "sha256": "b7216b12e9ebaced188e405bd7636c8fc138b20ae6a57d7d07555d777a131cdb",
+   "mendeley_file_id": "b0360a9d-3272-4086-8266-6ff22f91ca97"
+  },
+  {
+   "path": "audio/LA9010_ENSS.wav",
+   "size": 2674460,
+   "sha256": "88e419893a68b620e7763d13042b0d3f73fbab6bbc9e9210bc343b58b71fbf8c",
+   "mendeley_file_id": "e6bb32cf-fc41-415d-84de-c8781400d66b"
+  },
+  {
+   "path": "audio/LA9011_ENSS.wav",
+   "size": 2393108,
+   "sha256": "a7b705c7da368af33a0f4d3c8c37f9590ba6dd95b0251adba883fcba6bb8666b",
+   "mendeley_file_id": "eee901c9-3776-4852-8af2-c9163db782f8"
+  },
+  {
+   "path": "audio/LA9012_ENSS.wav",
+   "size": 3007822,
+   "sha256": "8e7a4f74b59e32b7e64aba9580eef444e2afbd4d90bec4be4a5691cc6b55faf0",
+   "mendeley_file_id": "f0f93fa1-b807-40ac-828b-5e962aae3c1d"
+  },
+  {
+   "path": "audio/LA9013_ENSS.wav",
+   "size": 2845694,
+   "sha256": "f99411bd02c2d30461c91e0739fdbba4c4938d2a6e889852ac4a4d15672f7378",
+   "mendeley_file_id": "a273d873-1f06-4333-9033-5440d7776f1d"
+  },
+  {
+   "path": "audio/LA9014_ENSS.wav",
+   "size": 2800740,
+   "sha256": "12bff304b04112e255836c48f59a21d324c63ad65d576ae303a67ae1279411b4",
+   "mendeley_file_id": "9efee80e-5d02-46f6-8b74-0fe9b5f69fe2"
+  },
+  {
+   "path": "audio/LA9015_ENSS.wav",
+   "size": 2681596,
+   "sha256": "b21c1e8810e3e4e028cb93d4305a939064ef33794ad9ec1702d3e8c3946146fb",
+   "mendeley_file_id": "b068deb9-8b35-4d87-8f73-4dac621fc1d9"
+  },
+  {
+   "path": "audio/LA9016_ENSS.wav",
+   "size": 2592502,
+   "sha256": "83d31dd4a8d765defe9fb67e6d498304ce99bdfc77f3795a6aa3e29c91fad00d",
+   "mendeley_file_id": "4f1a66fb-d3a4-4f12-92bb-536eeceb5b0d"
+  },
+  {
+   "path": "audio/LA9017_ENSS.wav",
+   "size": 2466084,
+   "sha256": "4155bbb73b4bcc7977b55ff808e8f3a5d2cbf3519b13c59378477b721469f681",
+   "mendeley_file_id": "1ed4ee4b-cb2c-4051-b9f0-790a360a119e"
+  },
+  {
+   "path": "audio/LA9018_ENSS.wav",
+   "size": 2952712,
+   "sha256": "612e769d3f2ca2e8d6d4421d6095b12a8989c7abd66799450aaaed438c8eae04",
+   "mendeley_file_id": "b3a2c8d0-245f-4e6b-a682-72314f1aa6f7"
+  },
+  {
+   "path": "audio/LA9019_ENSS.wav",
+   "size": 2645572,
+   "sha256": "e75874e684d5540fdcb8d226fa523196c54e02450c338c6f68782029f12f226d",
+   "mendeley_file_id": "b0dc2cda-7971-4d0e-97cf-b1355f9b48fb"
+  },
+  {
+   "path": "audio/LA9020_ENSS.wav",
+   "size": 1769096,
+   "sha256": "889e63d6ea931a225605e20dac87375da0a2343d9ad5d37ad87654501d57c136",
+   "mendeley_file_id": "94cefb66-1663-430d-a75d-7605d4fe7ec5"
+  },
+  {
+   "path": "audio/LA9021_ENSS.wav",
+   "size": 1642352,
+   "sha256": "f2107f5de6c7f303402b474cc0878b0de4f7ace9424a7cfe1501cee952f037bf",
+   "mendeley_file_id": "12617e7e-2c47-4d59-ae41-3dac50a58f78"
+  },
+  {
+   "path": "audio/LA9022_ENSS.wav",
+   "size": 1945496,
+   "sha256": "b7bdd103d88c6e5ee1385c3b626f552aff64a1fe19968731f8ebd62dc6daf081",
+   "mendeley_file_id": "edc27cd9-adb8-4f33-973e-43b2c8225229"
+  },
+  {
+   "path": "audio/LA9023_ENSS.wav",
+   "size": 1785886,
+   "sha256": "399b3897ba983850e1cb81a9996b5514cf1b8b27b71c223f1f732bbe168d59f7",
+   "mendeley_file_id": "ed9480ee-80f0-4c90-8066-aef01b582f0a"
+  },
+  {
+   "path": "audio/LA9024_ENSS.wav",
+   "size": 1790684,
+   "sha256": "501b30b39ceb09837549e3de2b20d90a9456f2943f7a9a5745d3d5603829450a",
+   "mendeley_file_id": "5bb71b38-d3f5-46f3-9a1a-2dc84cc84ac0"
+  },
+  {
+   "path": "audio/LA9025_ENSS.wav",
+   "size": 2008412,
+   "sha256": "1cca7c865b8c89ee1873f48f418056913e62b90dd5a85ab87dff14c0c7726cbb",
+   "mendeley_file_id": "b9728124-ba4a-4000-a9fa-7b6e35cc18e0"
+  },
+  {
+   "path": "audio/LA9026_ENSS.wav",
+   "size": 1926510,
+   "sha256": "82f28806e9e9b96cf65bc21ea3764cc0debfca62c6a61c780b4f27db05b1432a",
+   "mendeley_file_id": "e3558085-11b5-4784-89ff-bff41dfff4e7"
+  },
+  {
+   "path": "audio/LA9027_ENSS.wav",
+   "size": 1877086,
+   "sha256": "2b818a2a7af91a7cc11794976b8deafdfa79f84599a35e49fd23ee30ac4d274f",
+   "mendeley_file_id": "cd3463d4-3660-4b85-869c-58c52d36178c"
+  },
+  {
+   "path": "audio/NYU1001_ENSS.wav",
+   "size": 2004642,
+   "sha256": "df98be58a8523d289e988a00e691288167d1c6bd127faec681bfabc07c6ae71c",
+   "mendeley_file_id": "b5fcd0d7-8ead-4425-b299-33419a95c53d"
+  },
+  {
+   "path": "audio/NYU1002_ENSS.wav",
+   "size": 2329000,
+   "sha256": "9319a06958b44e65d9ce305aaab5ae9c377020beab6037fa958135d49c5c8365",
+   "mendeley_file_id": "9ad13669-c74d-474d-9d9b-b318274d50d2"
+  },
+  {
+   "path": "audio/NYU1003_ENSS.wav",
+   "size": 2088436,
+   "sha256": "7c1c5f0c82dcbb7c02759c399c84283da4a585bf2b358ccfbb2f482148106f50",
+   "mendeley_file_id": "2d4a71fa-39ad-4f22-bbb4-c13c5d6880d2"
+  },
+  {
+   "path": "audio/NYU1004_ENSS.wav",
+   "size": 2354220,
+   "sha256": "4ac1943a1fc8f960533164a381a607601bfb2410d57ca9bb861e6748327b3b52",
+   "mendeley_file_id": "3b9f2674-8424-42e7-89c3-9185c8321634"
+  },
+  {
+   "path": "audio/NYU1005_ENSS.wav",
+   "size": 1942572,
+   "sha256": "a13cc9094e65ac2415042b01d05413d4ff8f7c198b9bc044ee682dd3eea53f78",
+   "mendeley_file_id": "5e769c34-3e07-4644-ac59-cd305fd0d310"
+  },
+  {
+   "path": "audio/NYU1006_ENSS.wav",
+   "size": 1926188,
+   "sha256": "10e379c692cec6cc5732e91ce12640d716004fc9931eaa41e2dc179881ea1113",
+   "mendeley_file_id": "78232d76-46ea-4e93-8e1c-972e37436902"
+  },
+  {
+   "path": "audio/NYU1007_ENSS.wav",
+   "size": 1752108,
+   "sha256": "fe1ad6ab666143d9d47fdc8d77aa3e18f64813ebf1c03ca2eefc1ca204b8b035",
+   "mendeley_file_id": "a8b12b99-925c-42f5-8dd9-dfb1255e88ae"
+  },
+  {
+   "path": "audio/NYU1008_ENSS.wav",
+   "size": 1801260,
+   "sha256": "502a150d019252cae9b9106cdc459861d4d401dea1e40da15cbab897f74223d2",
+   "mendeley_file_id": "405c35f3-d1e6-4fbb-b5b7-c26f4d7e0d81"
+  },
+  {
+   "path": "audio/NYU1009_ENSS.wav",
+   "size": 2505268,
+   "sha256": "0ed7ec5fd01311ad75f3d199848cabdef3ec3ebf7e367e2e5e2235dc983b936f",
+   "mendeley_file_id": "a2edce4a-a813-4161-971b-567f23557ee6"
+  },
+  {
+   "path": "audio/NYU1010_ENSS.wav",
+   "size": 2267220,
+   "sha256": "98a7a3a419c46f871ee6ab10454a0220315cd2e16497a3ca747658ae72b0f3a5",
+   "mendeley_file_id": "d66b1c7b-8386-43e4-b643-60a62ca40917"
+  },
+  {
+   "path": "audio/NYU1011_ENSS.wav",
+   "size": 3032720,
+   "sha256": "1324427b9d3c6ad3eda09cd280b65ec4fd56f59d1b765384411bfed4e6da9d08",
+   "mendeley_file_id": "390f5bcf-feac-4e3c-a483-f45be7f4dddf"
+  },
+  {
+   "path": "audio/NYU1012_ENSS.wav",
+   "size": 2734004,
+   "sha256": "bb978142c623ea2fdd5fbe3a9d281e254f8966012818841b3e7af1010538d262",
+   "mendeley_file_id": "1be9f12f-709c-42d8-af10-adb8fe2cff42"
+  },
+  {
+   "path": "audio/NYU1013_ENSS.wav",
+   "size": 1489708,
+   "sha256": "638ea470851a93d3080347ab0b9670d9c3d78370a192840acdd577f753caa678",
+   "mendeley_file_id": "4fa8e9af-3765-4ceb-b42c-2f7870b0c4ac"
+  },
+  {
+   "path": "audio/NYU1014_ENSS.wav",
+   "size": 1587890,
+   "sha256": "8a0df447b63f5f9d6c6b444f9fe387010aa16a4a6aa74a37bb61311cb01b43b9",
+   "mendeley_file_id": "da8cbfe4-a850-4042-97b3-df42718e8b92"
+  },
+  {
+   "path": "audio/NYU1015_ENSS.wav",
+   "size": 2824884,
+   "sha256": "a41e74ccb25b4eae5c07fbe3e0c481e4cd86dd5c40a2178b61ec913a330410c2",
+   "mendeley_file_id": "944ca8d8-a7f7-4fa9-9076-1eb6af4b94a8"
+  },
+  {
+   "path": "audio/NYU1016_ENSS.wav",
+   "size": 1974490,
+   "sha256": "dda3e5a33fbe146307dc461d7e85096d2e4555da9974638888f0cd8badad41ed",
+   "mendeley_file_id": "bf25e8db-742d-4e6d-b589-bee7bc743c79"
+  },
+  {
+   "path": "audio/NYU1017_ENSS.wav",
+   "size": 2326860,
+   "sha256": "a46ac68b943119578a3aa059b152ade892203ed49a755dce4bfe1aff0d59178f",
+   "mendeley_file_id": "655452fc-c57e-4279-b662-bbd1cdab059b"
+  },
+  {
+   "path": "audio/NYU1018_ENSS.wav",
+   "size": 2465664,
+   "sha256": "58532cc1c96ea35e5189c4238df1e02f149e690e365d6bd660ecc8d876121602",
+   "mendeley_file_id": "2e99aed3-5a34-44da-9184-1714a7d3f605"
+  },
+  {
+   "path": "audio/NYU1019_ENSS.wav",
+   "size": 1869300,
+   "sha256": "9c949ed577e2221df42bddfdb89d4d2db471b179231de9a53ccea04f7bb5b34c",
+   "mendeley_file_id": "2461a42c-6a43-474d-9861-b7f32f9aa2da"
+  },
+  {
+   "path": "audio/NYU1020_ENSS.wav",
+   "size": 2535340,
+   "sha256": "8f25cfdbda3ebbe69fc534a49450ebef3217bf261802c2befd6e7ab123b1c2cc",
+   "mendeley_file_id": "bb621880-930e-4db8-ad0f-6ce34be7d57a"
+  },
+  {
+   "path": "audio/NYU1022_ENSS.wav",
+   "size": 2986174,
+   "sha256": "ae35a8d79267f89e0b16c4e24fa59a3323628fc87bb20fdb2562051b2d036b57",
+   "mendeley_file_id": "abd53794-dbd3-42ba-868c-2ccd9a2f93f8"
+  },
+  {
+   "path": "audio/NYU1023_ENSS.wav",
+   "size": 2111798,
+   "sha256": "6aaa4e37c3e9375216cc87771b2e19e05491c552ef01004359b960fd758fdb05",
+   "mendeley_file_id": "be2e3bc4-e243-42cc-850c-0525d4c0dcb5"
+  },
+  {
+   "path": "audio/NYU1024_ENSS.wav",
+   "size": 1774344,
+   "sha256": "f6d01fa069b7ff519e43a05c93abc9149329852cf932be604ba48fe41a6f39ef",
+   "mendeley_file_id": "079ff63e-647b-42a8-bb81-41da4dc1d41f"
+  },
+  {
+   "path": "audio/NYU1025_ENSS.wav",
+   "size": 1831422,
+   "sha256": "f2aac1b2dd544c6eaec444cb7491b4309bea7f1fb3ac90156e530ccc604a1427",
+   "mendeley_file_id": "758c5dcf-46fd-4315-a3b2-66b871b94217"
+  },
+  {
+   "path": "audio/NYU1026_ENSS.wav",
+   "size": 2173390,
+   "sha256": "b90348678a7c272b14090b14e18e2f500f6f5f1b8db0b1559184a22612d76ed0",
+   "mendeley_file_id": "6b7db1e7-2120-4b2f-9e4c-4219fbeaa743"
+  },
+  {
+   "path": "audio/NYU1027_ENSS.wav",
+   "size": 1602226,
+   "sha256": "0a60b42bd240423243cde12c91454c1e0f468eab06635e4c2f0f50c01aad96ba",
+   "mendeley_file_id": "a4123a2a-df7c-434e-b65d-4f5892940d73"
+  },
+  {
+   "path": "audio/NYU1028_ENSS.wav",
+   "size": 1750330,
+   "sha256": "d515bd6d37bf0a47893831535b4bec91ee6ce44cf485c320e2171ba17a9ca4a9",
+   "mendeley_file_id": "0a1d2229-a535-4707-8e44-231b606bbeff"
+  },
+  {
+   "path": "audio/NYU1029_ENSS.wav",
+   "size": 2031308,
+   "sha256": "211394561a495db4c03adee67f0692c7d605ddc5d9ad2942d8929425a9d01fd4",
+   "mendeley_file_id": "17a52ba5-8e78-4732-8b7c-11836725e1dd"
+  },
+  {
+   "path": "audio/NYU1030_ENSS.wav",
+   "size": 2000822,
+   "sha256": "e0d5fc25c5270c4318206ffeeac4109c5b6baf461de9498ba8710eadf72b80ba",
+   "mendeley_file_id": "9740f539-4f23-46b7-be42-6c535c548e2b"
+  },
+  {
+   "path": "audio/PT001_enss.wav",
+   "size": 1262516,
+   "sha256": "a418ed2c92b179d40582c1953dacfde756080fda869c742e8c0d82bbd05c8d70",
+   "mendeley_file_id": "c5390edc-1636-4f13-b860-b2b32136e52d"
+  },
+  {
+   "path": "audio/PT002_enss.wav",
+   "size": 2081910,
+   "sha256": "9383a5da0de16c174b17b3cef078599b535705f9ca9db6c093fecd34aa09ac39",
+   "mendeley_file_id": "f9ed5b5c-ce1f-43e9-a997-6f8f2a638de6"
+  },
+  {
+   "path": "audio/PT003_ENSS.wav",
+   "size": 814332,
+   "sha256": "ed9f72faa3c879574e03e1804c14978fe81175882d21c26a53f85f6461697be8",
+   "mendeley_file_id": "5ed6cb35-d675-4c8b-a8de-305743ad2ce7"
+  },
+  {
+   "path": "audio/PT004_ENSS.wav",
+   "size": 754608,
+   "sha256": "bba3e283a66dfc2018c15ffde0048fba1ad02641f841b80ba4074866ffdef186",
+   "mendeley_file_id": "0940779e-65cb-4944-aa8a-3302ed58366d"
+  },
+  {
+   "path": "audio/PT005_ENSS.wav",
+   "size": 981060,
+   "sha256": "ec4f18bfd8b51912cc4fc9ae66c3c56132496e0485f3322cd832027c9495029f",
+   "mendeley_file_id": "c7da7edf-6166-4b22-ba7b-a1de497e5be2"
+  },
+  {
+   "path": "audio/PT006_ENSS.wav",
+   "size": 705854,
+   "sha256": "22d708cee683b2e5c8658c988e7700157ea334272a90fcc91aa34931f2295a76",
+   "mendeley_file_id": "15fa77ec-0b80-4065-ac77-8c4ab7c312a8"
+  },
+  {
+   "path": "audio/PT007_ENSS.wav",
+   "size": 1257106,
+   "sha256": "b88b30d07bcde89372eeced696da9f65bce01ac7d10508545ab255148902c3d6",
+   "mendeley_file_id": "e6df3012-97b2-4ecc-8acc-252eec4571f1"
+  },
+  {
+   "path": "audio/PT008_ENSS.wav",
+   "size": 1149558,
+   "sha256": "ca4ee9a9ce8a32868447438639ea3acd99d18d8b97d8b22c9cb22e430e8c1982",
+   "mendeley_file_id": "fdbeb72a-bf71-4388-9b2b-250d4212df68"
+  },
+  {
+   "path": "audio/PT009_ENSS.wav",
+   "size": 1240188,
+   "sha256": "839848d200547b6d2480df4a1b275097a8d1ae9c65c9055212c163ba9419e931",
+   "mendeley_file_id": "a38922c4-65c9-4467-a71f-f156952bf5ae"
+  },
+  {
+   "path": "audio/PT010ENSS.wav",
+   "size": 1265670,
+   "sha256": "baaaf60adc0acf1cb5df0bdf70101776277f7dce2217cd9fce6b927a072c0a18",
+   "mendeley_file_id": "8665c562-edbf-4578-813f-e2e1b3fc0374"
+  },
+  {
+   "path": "audio/PT011ENSS.wav",
+   "size": 954672,
+   "sha256": "58fa2150da89b331177cbde0459e79517d39ca37827b830c86e87fe5f65a08fc",
+   "mendeley_file_id": "a92237c9-54f2-4040-8bf5-002f935165f6"
+  },
+  {
+   "path": "audio/PT012ENSS.wav",
+   "size": 814376,
+   "sha256": "b0006735b6b22e0bf5ae990e4ccc0f49317e70ace88ae9888c7f2d072ad01eaa",
+   "mendeley_file_id": "bb54d551-cf11-4ec4-ae2f-947b6c824ce6"
+  },
+  {
+   "path": "audio/PT013ENSS.wav",
+   "size": 1023708,
+   "sha256": "6a57917016cdc9716bb5179cb8cd2dd66a4f9ab8306983a9fabcd87df99de515",
+   "mendeley_file_id": "9a883943-f217-4c39-ac3b-6feb411979d5"
+  },
+  {
+   "path": "audio/PT014ENSS.wav",
+   "size": 1355516,
+   "sha256": "33429180eee91733dcc72593781193d19aee5496fd3120d03b92722c2c73b9c0",
+   "mendeley_file_id": "4ac6f06c-2e6e-4686-b992-fb18896d96e9"
+  },
+  {
+   "path": "audio/PT015ENSS.wav",
+   "size": 1211262,
+   "sha256": "6fc954978250619a8f7413b9790e2d0c7896f88fa55618b19b821104d99de106",
+   "mendeley_file_id": "8c7b0833-61b7-4995-b010-2faedf330b35"
+  },
+  {
+   "path": "audio/PT016ENSS.wav",
+   "size": 1039322,
+   "sha256": "9c7abc17accd4dc9b2f7767635e3845ad6ca530641cccccea959b12d473a964b",
+   "mendeley_file_id": "e06d84a5-fce8-4bbc-a141-288dc3136946"
+  },
+  {
+   "path": "audio/PT017ENSS.wav",
+   "size": 1443338,
+   "sha256": "36630c1906b72b6dc8851f0a7f1af015a1a42648fce16363cf718404d70c4972",
+   "mendeley_file_id": "a1f37256-b69a-4dfc-8d60-2985ad9e37e4"
+  },
+  {
+   "path": "audio/PT018ENSS.wav",
+   "size": 1119672,
+   "sha256": "d7915566d22710a0b7e52ee0889a06ceb760fb56a03267624b65bdc6f8d5722d",
+   "mendeley_file_id": "ae154c24-9dca-451f-86a7-c2efe1e76149"
+  },
+  {
+   "path": "audio/PT019ENSS.wav",
+   "size": 956772,
+   "sha256": "1bee5a60f839079cb205060d5f533ee68d1f48551d356c1048db861d5fab0ade",
+   "mendeley_file_id": "e83f812d-f4df-4f6c-971d-b264eab2a005"
+  },
+  {
+   "path": "audio/PT020ENSS.wav",
+   "size": 1123300,
+   "sha256": "9d8a0d2bbfd0dd5f3535fdff107cc2ca70c7b6957e91a8a8c347cffab0272ea4",
+   "mendeley_file_id": "29794489-0cee-41b1-b087-b05e715bb66a"
+  },
+  {
+   "path": "audio/PT022ENSS.wav",
+   "size": 1060244,
+   "sha256": "15864e068e0798a39f17c36d9cc363f8f2af5b07a1306f80de57db276a350e40",
+   "mendeley_file_id": "c5731071-f43e-4c97-9697-376343591709"
+  },
+  {
+   "path": "audio/PT023ENSS.wav",
+   "size": 1077118,
+   "sha256": "2798c86b86e6beaf821dd4eaa0bf1a5ffe0e26d7894995ce2e7fda78f3d09431",
+   "mendeley_file_id": "7dd8b9a5-9d5b-4a00-9158-49354534815b"
+  },
+  {
+   "path": "audio/PT024ENSS.wav",
+   "size": 1088494,
+   "sha256": "e39f0c238f140f9be79b2f276009233b6dcbbca0699994029462f62a058e6a30",
+   "mendeley_file_id": "80943df6-c129-484e-adbb-e5f0ef4edc15"
+  },
+  {
+   "path": "audio/PT025ENSS.wav",
+   "size": 1207246,
+   "sha256": "c558457c4efc82adfd6e1958880cd24f0c28482dc64822b333c630811cd45181",
+   "mendeley_file_id": "a5912bca-a181-49ad-94ca-c7c07304d91b"
+  },
+  {
+   "path": "audio/PT026ENSS.wav",
+   "size": 1247036,
+   "sha256": "6c2f6288967aa0d52fe11870122c11a7c7eeafd5196232db83d8b81133688463",
+   "mendeley_file_id": "df8788b2-027f-4dab-a13d-580198d14974"
+  },
+  {
+   "path": "audio/PT027ENSS.wav",
+   "size": 1372934,
+   "sha256": "157ef769ee758dea7e862f49318f28d150ffeeb76ad9e642ef08582d800f19c4",
+   "mendeley_file_id": "54d656c5-ac09-4763-972e-517f3abf247b"
+  },
+  {
+   "path": "audio/PT028ENSS.wav",
+   "size": 1058822,
+   "sha256": "d3bd3aca55a67af331124b2a75a1784a5488c04f77df21973c35e7949e9987d8",
+   "mendeley_file_id": "0a3a259e-d829-4b01-a01a-0fff49ce7db7"
+  },
+  {
+   "path": "audio/PT029ENSS.wav",
+   "size": 1081094,
+   "sha256": "b8b1e411321b0dfc205b1315cd561f2ca9d13403d349646e46b8a7c197d87b51",
+   "mendeley_file_id": "3c3cff02-64b9-440e-89f4-3994adcc1b0e"
+  },
+  {
+   "path": "audio/PT030ENSS.wav",
+   "size": 1099908,
+   "sha256": "7cd53f33f814981751e644070dc2735ef6caaace80e70acfeb2b1e380dfe10a9",
+   "mendeley_file_id": "bc521c4f-9b02-42c6-a750-0aeb4a9dbfcb"
+  },
+  {
+   "path": "audio/PT031ENSS.wav",
+   "size": 953060,
+   "sha256": "5ffe0da548c2bfe5e7002d94f855d32b7f1a2371ca2bc78477b77f02d41b2aa1",
+   "mendeley_file_id": "361b25a6-5300-4195-8909-e504632e6465"
+  },
+  {
+   "path": "audio/PT032ENSS.wav",
+   "size": 1409456,
+   "sha256": "e32c0f47256149eb30dbc5467ae6a14b9afe60355d56f3e427cf7402700b549d",
+   "mendeley_file_id": "f9223acc-952e-473e-a0cd-38ce9a9cb74c"
+  },
+  {
+   "path": "audio/PT033ENSS.wav",
+   "size": 885798,
+   "sha256": "117c5d5daee711aa5f5a822bf27f123041c758c57f6eda49870018ce43695099",
+   "mendeley_file_id": "c18c9f09-17a4-46f1-abeb-b8ea2e830948"
+  },
+  {
+   "path": "audio/PT034ENSS.wav",
+   "size": 1081082,
+   "sha256": "77e86d43e32bb27e0c82860b1c8000dbfe13f9bf34525d25eaeefd5bd249e3ca",
+   "mendeley_file_id": "54cfdbd2-50f5-4112-8dbc-3a81ee9d0067"
+  },
+  {
+   "path": "audio/PT036_ENSS.wav",
+   "size": 1364216,
+   "sha256": "dbb953229731ba20e3fe65d8c97abb9857e26f31f1be65109fd41bccd3460964",
+   "mendeley_file_id": "7c3f85cd-3d64-4632-b725-42ce9f9042f4"
+  },
+  {
+   "path": "audio/PT037_ENSS.wav",
+   "size": 909686,
+   "sha256": "b266c4f81c0b407eb53ceb5572a9475910f5d26105232a57e1847485a7a73d7a",
+   "mendeley_file_id": "35f435af-82b7-4f4b-9592-49dd6fdb0e1a"
+  },
+  {
+   "path": "audio/PT038_ENSS.wav",
+   "size": 1100138,
+   "sha256": "e1fa2919fbe0e6bcf5ae2ced54bf980691056120a0b939d5fc5538584e142283",
+   "mendeley_file_id": "a34d6932-0516-4a24-8c05-6e230bd1977f"
+  },
+  {
+   "path": "audio/PT039_ENSS.wav",
+   "size": 1905822,
+   "sha256": "e67c5e0c0dac128f62d4e5c7d54842eae555313d4b40ddf8a77f0edb1344191b",
+   "mendeley_file_id": "5e1c8926-782b-4dd2-b4e3-55043c73f091"
+  },
+  {
+   "path": "audio/PT040_ENSS.wav",
+   "size": 779200,
+   "sha256": "99873b0f134dce4016208b8e2b33a49f50deec6bf5420d13161bae6eac0d1972",
+   "mendeley_file_id": "161660e7-ae7d-4271-9ef3-ad82e9adf663"
+  },
+  {
+   "path": "audio/PT041_ENSS.wav",
+   "size": 1261530,
+   "sha256": "9a05d039fd5b8e6747c836a05dbce09d3389e37da158fa558252c3e2229fd9df",
+   "mendeley_file_id": "31ae217c-ae61-43c4-9c1d-be2bf0b166f7"
+  },
+  {
+   "path": "audio/PT042_ENSS.wav",
+   "size": 979484,
+   "sha256": "97aafb9c1da991c047072e35b0248b32ded16b6aec1b1c29811b4ea47b770fdf",
+   "mendeley_file_id": "499bab36-e0cd-432f-9fdb-b069810ae2da"
+  },
+  {
+   "path": "audio/PT043_ENSS.wav",
+   "size": 1205228,
+   "sha256": "f702dd4dac4bddc26a78d42b9717f026bb6faec68145d15c803b2e4176f9b98c",
+   "mendeley_file_id": "19efc41f-e706-4ec7-8726-14494b7968d0"
+  },
+  {
+   "path": "audio/PT044_ENSS.wav",
+   "size": 1212126,
+   "sha256": "b9940f095f79ac965bae30c6b4bc08cfa30c324f1ff3bdf1dff505d3a74fd030",
+   "mendeley_file_id": "c523ebdf-d6d1-4e8d-84be-9219b5dc8f01"
+  },
+  {
+   "path": "audio/PT045_ENSS.wav",
+   "size": 1394982,
+   "sha256": "600387290a3cb34f5e522438c66c96da14b20626d5396f235614e2c6610dd40c",
+   "mendeley_file_id": "d8185f4e-a02e-498a-b9bf-f45551f84571"
+  },
+  {
+   "path": "audio/PT046_ENSS.wav",
+   "size": 1229540,
+   "sha256": "c1d992b66f2a54f77a991189276cb96ad5aa04f057a0b269f7cd24fc70d29aee",
+   "mendeley_file_id": "87d7973c-287b-4c5a-9fe9-ea3f596dde0d"
+  },
+  {
+   "path": "audio/PT047_ENSS.wav",
+   "size": 1127954,
+   "sha256": "b9f044e00ca96715a2bc9dae124afbae87d0d5a90628c83861ce056bc932aa50",
+   "mendeley_file_id": "b239b7d1-690e-436a-a3eb-1460e9261f01"
+  },
+  {
+   "path": "audio/PT048_ENSS.wav",
+   "size": 932326,
+   "sha256": "96d3bd4b85954ee5fac1264522dcd8ddcb678fc9edf67054774f4452f1b06f00",
+   "mendeley_file_id": "2cab5d97-2fe1-4682-990a-fb77fdfa438e"
+  },
+  {
+   "path": "audio/PT049_ENSS.wav",
+   "size": 1055972,
+   "sha256": "dea78781227951f79404f28d040078f0c6c5a9a18addf7e7582d8377c1a8e969",
+   "mendeley_file_id": "0c8a8a2d-0c96-4169-b9be-7c12ada29cde"
+  },
+  {
+   "path": "audio/PT050_ENSS.wav",
+   "size": 1237088,
+   "sha256": "823055907517a989591bcca0d1b2c85987227774415db715aeb87718720b3c6f",
+   "mendeley_file_id": "1d625a90-1be6-4c84-8d50-afb99611560c"
+  },
+  {
+   "path": "audio/PT051_ENSS.wav",
+   "size": 1096574,
+   "sha256": "d1edefc9cc7d101f0beab207d58787f2d60e29d426a5d0bc4381b00ec7f15bf4",
+   "mendeley_file_id": "2e63ae2d-a2c6-4a5e-9350-22d6506ea480"
+  },
+  {
+   "path": "audio/PT052_ENSS.wav",
+   "size": 1105096,
+   "sha256": "8528f444d3e4f79f9b35e3251b75b09dcb95a3918742ce6857f503d3ac04b7e3",
+   "mendeley_file_id": "89eeb5cb-5d4e-4443-a13a-bec5abffede2"
+  },
+  {
+   "path": "audio/PT053_ENSS.wav",
+   "size": 1155096,
+   "sha256": "0bc1b3f4b5a4339e164e71f40fe7cb04a698c542c1c0b7be0c49289bada98ec5",
+   "mendeley_file_id": "7b4b5579-79bf-420d-a536-849a7f323405"
+  },
+  {
+   "path": "audio/PT054_ENSS.wav",
+   "size": 1605096,
+   "sha256": "b98dd2223947f92326b52441e38fd5cfcabe7df537cf82d50a9b686de4b60035",
+   "mendeley_file_id": "88ec6291-3006-4bc6-8b29-1ad2c04175eb"
+  },
+  {
+   "path": "audio/PT055_ENSS.wav",
+   "size": 1025014,
+   "sha256": "4b91f1bf64aa89ac6dedba9a45bc1b5f038d27e1d96eb4413a332ebb24bc527d",
+   "mendeley_file_id": "ff64dbfd-697c-49a2-b7eb-b73089b9410b"
+  },
+  {
+   "path": "audio/PT056_ENSS.wav",
+   "size": 1514816,
+   "sha256": "30db8b3efa842823b12124092ea4d705303c57e54cba5e32418f0ca445c2b898",
+   "mendeley_file_id": "1fbed6c7-fa67-447a-8a40-1d03b2ee9c95"
+  },
+  {
+   "path": "audio/PT057_ENSS.wav",
+   "size": 889368,
+   "sha256": "21c495fd4e0485320bde87b9f6e8f7b952a9ca16237e4e2ddc6d665340e0127a",
+   "mendeley_file_id": "9ea7f0eb-98f6-4739-ad0a-993408c54116"
+  },
+  {
+   "path": "audio/PT058_ENSS.wav",
+   "size": 1428350,
+   "sha256": "d57e3ade0aba367ff8483ee3d53ee32cc49b024756e15a11d7912e81d9803e92",
+   "mendeley_file_id": "142bb6c2-1003-4c04-8c85-3e99cc6eec02"
+  },
+  {
+   "path": "audio/PT060_ENSS.wav",
+   "size": 1100090,
+   "sha256": "3637e208398b08d3390bc5a8d2944e0ef5dcdf4c8555f71d0adde07ce879f4ad",
+   "mendeley_file_id": "367160fd-66cf-4510-aca4-47d2f65a7fe8"
+  },
+  {
+   "path": "audio/PT061_ENSS.wav",
+   "size": 1002600,
+   "sha256": "8e495514623f9c31ea81b252af9e0493c4850cbc21359bfb14a4d0b893d18e8e",
+   "mendeley_file_id": "7db85308-ebfa-49e1-9100-0a3bbaf64ced"
+  },
+  {
+   "path": "audio/PT062_ENSS.wav",
+   "size": 754090,
+   "sha256": "26408fe5b0756d3033bba2765851e4dfeda885348bead6acc6bb6540cc0d9324",
+   "mendeley_file_id": "0912990d-d46f-48c5-9ae5-3e93134a59ea"
+  },
+  {
+   "path": "audio/PT063_ENSS.wav",
+   "size": 1115504,
+   "sha256": "86f33edb414ece687de6318859f62d2adbcd8cabba33ee7c8e34792697ab3f2c",
+   "mendeley_file_id": "351a3a36-fb29-4750-92cf-2ba486f9f736"
+  },
+  {
+   "path": "audio/PT064_ENSS.wav",
+   "size": 1056922,
+   "sha256": "987db78e1e50fef39f25fa81b0491268088f9afb80b6f797b8e658e173c074be",
+   "mendeley_file_id": "56570ed2-cca2-4977-9c5c-0a3ffc91fa9d"
+  },
+  {
+   "path": "audio/PT065_ENSS.wav",
+   "size": 1277654,
+   "sha256": "445d7d7c09e31672b8ac0e12a00d68633614b91afedad9ccac711334f4063193",
+   "mendeley_file_id": "4d4df84c-2b74-4308-bb8c-18a6fe102ccf"
+  },
+  {
+   "path": "audio/PT066_ENSS.wav",
+   "size": 1061820,
+   "sha256": "8347f953efe78dd530fc05a173a04b94df4ec16f0cf13f7edec4334f33a29ac5",
+   "mendeley_file_id": "05d344dd-0dab-49ed-bc63-51221c4ab18a"
+  },
+  {
+   "path": "audio/PT067_ENSS.wav",
+   "size": 1239160,
+   "sha256": "21dc012866c279af87383d980f07c69c5ec1306a799b05c3dc2a2b0c4fd88f70",
+   "mendeley_file_id": "4121055c-b731-412d-b9d8-c8fedd1beec9"
+  },
+  {
+   "path": "audio/PT068_ENSS.wav",
+   "size": 1115814,
+   "sha256": "e1bc7955bee417fc9ba10ef2cd3118130fec84bd79992f6092e079f11f88d4ab",
+   "mendeley_file_id": "194c8307-963d-4cc5-98de-2f367c8331b9"
+  },
+  {
+   "path": "audio/PT069_ENSS.wav",
+   "size": 824084,
+   "sha256": "5bd43700d80ee912e4077764699fac73135c670e0f153671d39131b416e0ec92",
+   "mendeley_file_id": "18dda335-5d6b-4136-83d0-aadf685e7758"
+  },
+  {
+   "path": "audio/PT070_ENSS.wav",
+   "size": 1157746,
+   "sha256": "913633a53c0ec110d424169e71f7f4e8ad6a6cc4d3218912320c8a443c90f6f9",
+   "mendeley_file_id": "4d279588-1997-4d17-805d-2c0cfdc05121"
+  },
+  {
+   "path": "audio/PT071_ENSS.wav",
+   "size": 931006,
+   "sha256": "b96d6b23bc952ac09b6103de6d8fc47b4889d15b9aed683a9426ed4a986c166c",
+   "mendeley_file_id": "875c6a71-8235-4028-b926-c082bdb9c235"
+  },
+  {
+   "path": "audio/PT072_ENSS.wav",
+   "size": 1056108,
+   "sha256": "55f537dacf2d0a4f33ffdeff33a86b44a5c0a7c59a018436c5c8f47f500548c4",
+   "mendeley_file_id": "f167d8bc-cb2b-4158-9cd2-44539311e584"
+  },
+  {
+   "path": "audio/PT073_ENSS.wav",
+   "size": 849148,
+   "sha256": "be8bb307ae893d7eed136a0bb6a83ae04046916b719e92397b59a67d045fb4f6",
+   "mendeley_file_id": "ec906861-b536-477b-b9e2-9448811e4e13"
+  },
+  {
+   "path": "audio/PT074_ENSS.wav",
+   "size": 1150352,
+   "sha256": "cb1c9b62c0db6147aae793ea308f220d0bdf1f57f90f06f3f4b8c9ffaf64b6a3",
+   "mendeley_file_id": "cc77bb30-07b4-492e-9979-b357175826d4"
+  },
+  {
+   "path": "audio/PT075_ENSS.wav",
+   "size": 1111524,
+   "sha256": "0ad3b02ab33326a7528f92183ca4b8920c959e1b7ee9a380ac9e5a5e83a904d0",
+   "mendeley_file_id": "a6170da7-76a5-489e-8a10-527f64bb6fad"
+  },
+  {
+   "path": "audio/PT076_ENSS.wav",
+   "size": 1255296,
+   "sha256": "315c42adf0dc812220a16cffb489c2022d471a9ccbe261459fa1eb4b71419148",
+   "mendeley_file_id": "ba88a86a-96e4-4d94-ac89-775e21ecf308"
+  },
+  {
+   "path": "audio/PT077_ENSS.wav",
+   "size": 1165512,
+   "sha256": "5a3d6932b73d246641ad15a1f5a80c52186a827bb8056f5b3576d582b043aec6",
+   "mendeley_file_id": "a080f758-714e-4f54-870c-b9269472ca4d"
+  },
+  {
+   "path": "audio/PT078_ENSS.wav",
+   "size": 813580,
+   "sha256": "14338a3143e7309702c7a829656debf8e9c6d621780b19585f4d6f68feb4c146",
+   "mendeley_file_id": "f69e7dae-8d69-4c32-b27a-c1c4fd1a1253"
+  },
+  {
+   "path": "audio/PT079_ENSS.wav",
+   "size": 731288,
+   "sha256": "ab2239616b123e01272404430ca5e893bb81e13cf4c093da8aa306d96dc0eda7",
+   "mendeley_file_id": "08a71f6c-af0c-4ac7-b583-092c855d9728"
+  },
+  {
+   "path": "audio/PT080_ENSS.wav",
+   "size": 1015472,
+   "sha256": "1361f40a7fa85d9aceb8ba60bc398577e1d2a63b1629abf3a4c400d02a9adacd",
+   "mendeley_file_id": "93906cf0-0cec-43a1-9b2d-6fdc5b85cbe7"
+  },
+  {
+   "path": "audio/PT081_ENSS.wav",
+   "size": 1256490,
+   "sha256": "cac11afc49d3d3240b7c5213abe1f50beeb050857228ee56a71390f2eead2296",
+   "mendeley_file_id": "a92a168f-d16e-4344-85a1-37168e15191d"
+  },
+  {
+   "path": "audio/PT082_ENSS.wav",
+   "size": 938728,
+   "sha256": "f402342619413b5eb29548aab21d4fa83072074fc243ca3f7be59a7103b230de",
+   "mendeley_file_id": "202d32c5-94b6-4a6b-be41-378ef1619e80"
+  },
+  {
+   "path": "audio/PT083_ENSS.wav",
+   "size": 906694,
+   "sha256": "bd42bcffdb6da798685af7a09ce576803f5706322a70e23e9e37ebf895bfa0e8",
+   "mendeley_file_id": "83341ab2-bb6a-460b-b7e1-0c86f1cb65ed"
+  },
+  {
+   "path": "audio/PT084_ENSS.wav",
+   "size": 1051496,
+   "sha256": "d19659784c643f852ca1c953dc29087260bef784aaa857fe4c7e0210240c9cc6",
+   "mendeley_file_id": "276712df-2733-4ce1-a538-419cc321fac0"
+  },
+  {
+   "path": "audio/PT085_ENSS.wav",
+   "size": 971682,
+   "sha256": "cb8acef0415547ffdeb9fe61050232f70088a682b065bb6a8a94a8888ff6862f",
+   "mendeley_file_id": "7a857709-61f1-4bf2-9359-c5f3f8977c4e"
+  },
+  {
+   "path": "audio/PT086_ENSS.wav",
+   "size": 827266,
+   "sha256": "378e1d38338b449e4aea94b05629cccd99a76b956175b7bfc352b114506610c9",
+   "mendeley_file_id": "d5197f34-5f9d-40db-8e05-eb5dea9a2520"
+  },
+  {
+   "path": "audio/PT087_ENSS.wav",
+   "size": 1315422,
+   "sha256": "3975cf5d4bbec2dc2c502d59777af95449fb28e347b03dc227ca4fbaf5e0d261",
+   "mendeley_file_id": "8c840498-f613-44eb-9801-fdfb5cd19f66"
+  },
+  {
+   "path": "audio/PT088_ENSS.wav",
+   "size": 1019106,
+   "sha256": "7b8cd000247c92e718427285d3678be365bc039e6ac634d298534660f72fa13c",
+   "mendeley_file_id": "3881d073-cbe3-455f-b203-a314a04aa0a8"
+  },
+  {
+   "path": "audio/PT089_ENSS.wav",
+   "size": 1446038,
+   "sha256": "1395d37532c8447dc985bb60acba7eeb1227d91146e88a7f409b21c45c0dfd91",
+   "mendeley_file_id": "4f6bffd7-d2b0-42a8-8ba3-8554e5fcc550"
+  },
+  {
+   "path": "audio/PT090_ENSS.wav",
+   "size": 799662,
+   "sha256": "cddee3ccc81cec886f0a60776d6b11a7bb65a0ebecc879fcaa628199ffb9831b",
+   "mendeley_file_id": "4f1d49b3-9df4-4602-80f4-0f65aa479c1a"
+  },
+  {
+   "path": "audio/PT091_ENSS.wav",
+   "size": 1139664,
+   "sha256": "97c9971a91687af1b441496a0d8bb0515948fbd4a3d203728816183afa82ffb7",
+   "mendeley_file_id": "d3105e87-1a72-4f1a-a5bc-a4f4cd458478"
+  },
+  {
+   "path": "audio/PT092_ENSS.wav",
+   "size": 1036246,
+   "sha256": "84b76d1b8f3898e378eed9cc258108d5cc19183a2dae718336ab76ca7605a5aa",
+   "mendeley_file_id": "f1388f53-4285-4f98-b263-d66780b2f0dc"
+  },
+  {
+   "path": "audio/PT093_ENSS.wav",
+   "size": 888884,
+   "sha256": "2ec1c49156ada1257777e3a8e6a8e8b13127cde177ba0aa85a6121d52f1be8bc",
+   "mendeley_file_id": "27004323-c201-4e15-b9fa-1e12053578c3"
+  },
+  {
+   "path": "audio/PT094_ENSS.wav",
+   "size": 806514,
+   "sha256": "845021a517c470f7396dc1e9c21beecf959a297e0e8568919fada5a2f81eadf4",
+   "mendeley_file_id": "98dd359f-ee10-4758-a32c-d6d9d50f497b"
+  },
+  {
+   "path": "audio/PT095_ENSS.wav",
+   "size": 879310,
+   "sha256": "5c4c42139eef0e5be2af742a7a88e9e0f5037ba2d3dde87ad11a2a4cfbcdb652",
+   "mendeley_file_id": "dedcb8af-bab4-430b-8102-75167df85aee"
+  },
+  {
+   "path": "audio/PT096_ENSS.wav",
+   "size": 693758,
+   "sha256": "2e9566759bcbf77c634b4bee00e80e681d2c2d46d7eff73f63c76afe460efd2a",
+   "mendeley_file_id": "6954d09d-b12d-4028-b97d-5b62fe82b099"
+  },
+  {
+   "path": "audio/PT097_ENSS.wav",
+   "size": 971462,
+   "sha256": "7eea12ad622d1ddff5d986f16eaa2364fa3082e5ec70c3436ab028bc0fb7d185",
+   "mendeley_file_id": "896dfbf3-5ec7-479f-95d8-7198f19396d6"
+  },
+  {
+   "path": "audio/PT098_ENSS.wav",
+   "size": 933920,
+   "sha256": "b6fcf12e62877c8ec15c483177a1362e33d67ba7e7bb90ced735a2c45e61b063",
+   "mendeley_file_id": "83bf6b4a-6a58-48aa-b1b1-26d0fc0954ba"
+  },
+  {
+   "path": "audio/PT099_ENSS.wav",
+   "size": 1107934,
+   "sha256": "218e2640e46c55361c86b51b7ed27a98fb755d51855e1f38c340a569a92ffe9d",
+   "mendeley_file_id": "91e528d6-741c-4d9c-9211-1aca9ca558b3"
+  },
+  {
+   "path": "audio/PT100_ENSS.wav",
+   "size": 1016036,
+   "sha256": "eebc687031faa260ed9384e65ea14cbca8c99716bf4d3a11ba328bcff2ba2c40",
+   "mendeley_file_id": "e6323a9b-c510-4efc-a0ee-bd461191c147"
+  },
+  {
+   "path": "audio/PT101_ENSS.wav",
+   "size": 842660,
+   "sha256": "4c3c625511d2e4cff2b236388b208bfdfb1692fd980e3136afdec3ea892ae5f3",
+   "mendeley_file_id": "a3015414-1113-4c1a-82ec-1ec264386ffe"
+  },
+  {
+   "path": "audio/PT102_ENSS.wav",
+   "size": 993356,
+   "sha256": "d94fb6df31dc242f51c6eefe4344c4073d187134a359e7e90f8b3d18dd67cc66",
+   "mendeley_file_id": "db18ff8c-96de-4485-950e-330286ed2d77"
+  },
+  {
+   "path": "audio/PT103_ENSS.wav",
+   "size": 661690,
+   "sha256": "39ea8d3314abb845334e0b0b5041b8efe6ce02247a5f4abf82a6c4b7f904df36",
+   "mendeley_file_id": "c8ea9412-ae6b-48f5-94c3-b6c0c0afc209"
+  },
+  {
+   "path": "audio/PT104_ENSS.wav",
+   "size": 1725796,
+   "sha256": "1671251eb7f8fa21659a4bb45c880e4da1063cd336c1eeb254d6012ae866b1d3",
+   "mendeley_file_id": "0a032234-c13d-4b95-a854-57ef7daa9360"
+  },
+  {
+   "path": "audio/PT106_ENSS.wav",
+   "size": 930474,
+   "sha256": "dc51b228644c38bf2103e4eb8c4662159ba95a28409faf6b659089b6dfb6f333",
+   "mendeley_file_id": "43971a16-a7bd-4896-b70a-1e065469d41e"
+  },
+  {
+   "path": "audio/PT107_ENSS.wav",
+   "size": 805648,
+   "sha256": "e01bb3a60148f3caf7a4c0413d73cb68a6c93be4259f3a850c5d751d9b022098",
+   "mendeley_file_id": "15ca872a-cf41-47a0-8348-ecc537884803"
+  },
+  {
+   "path": "audio/PT108_ENSS.wav",
+   "size": 1023836,
+   "sha256": "c81c71a92ffdc604db5ba9f4e3ab4eb8624435818f3364723a319a09a380ebf7",
+   "mendeley_file_id": "5598251a-6bd2-4ffa-916f-d5de487af603"
+  },
+  {
+   "path": "audio/PT109_ENSS.wav",
+   "size": 871354,
+   "sha256": "2960cbfcfb61beb0b4f3de0f89cdef5c9705bccff82bc6bb13edfeed79f4a08b",
+   "mendeley_file_id": "de1b0564-dfc6-4216-abba-18140fb8bdf2"
+  },
+  {
+   "path": "audio/PT110_ENSS.wav",
+   "size": 1055998,
+   "sha256": "3ff4a97159ef6984f85cbf6a5b952770137cd979b4906122500dc7c660513147",
+   "mendeley_file_id": "ff1b5d3d-bc19-4f2a-909c-4f9eee1dd539"
+  },
+  {
+   "path": "audio/PT111_ENSS.wav",
+   "size": 826898,
+   "sha256": "652bb0b3183b2e3ecd1a5a6c3d5a3b593204d12df587e7ff976976e4c62eb058",
+   "mendeley_file_id": "39726236-96e0-4a12-8cb8-9aa25f0cf772"
+  },
+  {
+   "path": "audio/PT112_ENSS.wav",
+   "size": 709028,
+   "sha256": "8ca9e8b9587447e1c462d4ffa58acdbb3bc47df2b45d34bbe5da7ae844b53eb1",
+   "mendeley_file_id": "45251b6a-9ccd-4dfe-bf6a-cc67818e0ea0"
+  },
+  {
+   "path": "audio/PT113_ENSS.wav",
+   "size": 924402,
+   "sha256": "a3f22c54f2f3ba550c50110154e780cc47b9562dc85a0979fd1889906f6b629b",
+   "mendeley_file_id": "8e4dccac-2994-47d9-9f5c-0439e210f7db"
+  },
+  {
+   "path": "audio/PT114_ENSS.wav",
+   "size": 793432,
+   "sha256": "3b82a09474e77675b1aceb3bf465a0e77d839625fb16fc68b1c19d94c0aea472",
+   "mendeley_file_id": "ddeb187e-63e0-4ca3-b6f7-7d8b292aa090"
+  },
+  {
+   "path": "audio/PT115_ENSS.wav",
+   "size": 999924,
+   "sha256": "77764b897b28f1d3933d9fc77c935181c996bae16798482971fa21baaa95aadd",
+   "mendeley_file_id": "db31b9d0-fafb-47f1-b090-e82a59a0d410"
+  },
+  {
+   "path": "audio/PT116_ENSS.wav",
+   "size": 839218,
+   "sha256": "c88999a9a05e22597d775f99e831d5e2493c25dccdf22be21fe20bedd8dada7e",
+   "mendeley_file_id": "8c3b6734-b41b-4a19-ba40-dcf0ef4f29dd"
+  },
+  {
+   "path": "audio/PT117_ENSS.wav",
+   "size": 1015670,
+   "sha256": "6c555eb87277778aa537df5fe69266d7d8eb755e1948604d39c627e3b2f6f8c9",
+   "mendeley_file_id": "d6566b0a-3f03-4b50-88d7-784a00a28fbd"
+  },
+  {
+   "path": "audio/PT118_ENSS.wav",
+   "size": 624080,
+   "sha256": "a1837d5de800d9442c256d10fb90a8680bcc5ef365267bff0e6d0b23d6ac3f03",
+   "mendeley_file_id": "f0b75c2c-12be-47b9-b6e9-316205c29a71"
+  },
+  {
+   "path": "audio/PT119_ENSS.wav",
+   "size": 1123160,
+   "sha256": "e5eff7d714b838b0654e5464ee93f2433784600df9dce7361a30de4eac2c086a",
+   "mendeley_file_id": "4724f7b8-d3ed-45bf-a148-70ddfe2fa6c4"
+  },
+  {
+   "path": "audio/PT120_ENSS.wav",
+   "size": 776224,
+   "sha256": "ae60ecf493b4b182ed166a56b9231052aceecc82d986e912fca011c4c096731f",
+   "mendeley_file_id": "040df25a-6e0f-4c59-b0ee-e2943fd1310c"
+  },
+  {
+   "path": "audio/PT121_ENSS.wav",
+   "size": 822506,
+   "sha256": "4f58776ac641ada53cc8ebb71d6e2a678ca965842810c07ee45920e26ca43aa9",
+   "mendeley_file_id": "db5d013c-58f6-4c48-b2f4-89cd60385b7d"
+  },
+  {
+   "path": "audio/PT122_ENSS.wav",
+   "size": 770162,
+   "sha256": "04b1177bfb17c4f6554b236a8c31f3d0600154f1081f065f5af27243ae2b66f4",
+   "mendeley_file_id": "e7a982ff-da78-406e-8634-f02ea9808f4d"
+  },
+  {
+   "path": "audio/PT123_ENSS.wav",
+   "size": 219076,
+   "sha256": "573218eb5dead0c54cad4df512dc2798be0ecec8918d1eb4e6d949eaadbf8978",
+   "mendeley_file_id": "e0d9bb64-ce64-48f1-81e3-297de91e4748"
+  },
+  {
+   "path": "audio/PT124_ENSS.wav",
+   "size": 1017802,
+   "sha256": "8eb0d8dadf62059d8c3decb805a65410a714dd957a0ae23cb2861ad32de8abb8",
+   "mendeley_file_id": "44602c20-e820-470e-bf22-f4d61d7294b5"
+  },
+  {
+   "path": "audio/PT125_ENSS.wav",
+   "size": 946276,
+   "sha256": "2006a1ef7aafdcc9393c6fdf3b455381ea295fb979adae4f3e827912e2a706ed",
+   "mendeley_file_id": "729ccf38-c023-4413-94c9-38beb72c9731"
+  },
+  {
+   "path": "audio/PT126_ENSS.wav",
+   "size": 788558,
+   "sha256": "f8d94b22ee70a89ec2a9e0bd31224502bf47bd21799a0795311fd970a1289846",
+   "mendeley_file_id": "0674ad88-03aa-458d-8d17-94ac47e66261"
+  },
+  {
+   "path": "audio/PT127_ENSS.wav",
+   "size": 765702,
+   "sha256": "2a2fdf34ebceb5c2f86ebcaab682677451a5f2fe20018d9964fdcb87ae826f81",
+   "mendeley_file_id": "92fc654f-ec5e-4d99-955f-c2803aeb9f3b"
+  },
+  {
+   "path": "audio/PT128_ENSS.wav",
+   "size": 543110,
+   "sha256": "5b73c29b81352c856193ba1fd2d956839c8d5f21e894916967da93b6b146ff49",
+   "mendeley_file_id": "2317c6ad-e368-4dfa-acbb-b8ffefc4f528"
+  },
+  {
+   "path": "audio/PT129_ENSS.wav",
+   "size": 671302,
+   "sha256": "2ae2eaa12c345f243f4bd46e1544e60bf967151f6b81449e19b96bdd1a1fe0e8",
+   "mendeley_file_id": "917b61af-b02b-439f-8ae1-8aeff95ca145"
+  },
+  {
+   "path": "audio/PT130_ENSS.wav",
+   "size": 691726,
+   "sha256": "f97a76250e70cdbd07f66c1e7f8942e8dd51f7942abd2fdc1e9c2e8528ab0d71",
+   "mendeley_file_id": "3c15d104-f9c3-4bbe-b7a8-b7a0b1af7ef6"
+  },
+  {
+   "path": "audio/PT131_ENSS.wav",
+   "size": 1011900,
+   "sha256": "e5d82fe211ea5ef62b55e50a334ec8a59c6cc9bc853e5dbd6e8b19a533102b79",
+   "mendeley_file_id": "4f7618f7-0db0-4492-9627-1fb60d686517"
+  },
+  {
+   "path": "audio/PT132_ENSS.wav",
+   "size": 799208,
+   "sha256": "6437dec6b8ce271f29623b50e1f7e4fded7e0f00a61116bc0461f1a5af008a8c",
+   "mendeley_file_id": "8ace647a-44cc-4cac-ae8c-44b0caebc5b5"
+  },
+  {
+   "path": "audio/PT133_ENSS.wav",
+   "size": 629024,
+   "sha256": "812b2980f1d6133f5600dd831c3d20c08b0a36e6e56f01d1555fe3c28ac62d48",
+   "mendeley_file_id": "2b4808b1-1d04-477c-8b76-3c2ab1e7f415"
+  },
+  {
+   "path": "audio/PT134_ENSS.wav",
+   "size": 766268,
+   "sha256": "6e2e4620e707d7b190a7323a87f6a8819c4afce61fe56c2770296d4e465e4953",
+   "mendeley_file_id": "d0dc031a-d6c2-4f50-8bdf-c1dc3d3a7aa6"
+  },
+  {
+   "path": "audio/PT135_ENSS.wav",
+   "size": 727810,
+   "sha256": "27718423decfd0676243b9345c1ee2651a5a7431ef7a55e5076551238636ae77",
+   "mendeley_file_id": "2890e20e-476b-4f32-8a11-f010f599524e"
+  },
+  {
+   "path": "audio/PT136_ENSS.wav",
+   "size": 758668,
+   "sha256": "cbf1d0ea3e09165c2aac1ba66af9de5cf08e1d9feab0d0c2ba624ae0c1fb55c8",
+   "mendeley_file_id": "4db6d587-e7e2-449e-bcb8-a2a62fe63216"
+  },
+  {
+   "path": "audio/PT137_ENSS.wav",
+   "size": 723726,
+   "sha256": "43c8afc226d1dd2b5bafe66f0de37287adc88e214d73b5c45af0415b91ab8800",
+   "mendeley_file_id": "ea57d752-b780-48b2-b7b0-e61cb832237c"
+  },
+  {
+   "path": "audio/SJ1001_ENSS.wav",
+   "size": 2251818,
+   "sha256": "8478218beebc3171f4dd8246b314034c92d68a80d9d88299fdff48b02a593c85",
+   "mendeley_file_id": "cc8a7c46-dd57-43db-8a55-29add0a281b3"
+  },
+  {
+   "path": "audio/SJ1002_ENSS.wav",
+   "size": 2443826,
+   "sha256": "f106fb1d5dd9d44e42ff8e16c337c31a3d238f387f5e3e50bf6426d17be0aab8",
+   "mendeley_file_id": "bfcd4c66-f9f9-4c0a-ada6-93f919ecff30"
+  },
+  {
+   "path": "audio/SJ1003_ENSS.wav",
+   "size": 2916662,
+   "sha256": "b1c9b37839cac55d34e064bb6d24082411885ecc83a24ea49102568f590c0fb6",
+   "mendeley_file_id": "b75fde4d-a404-4b11-ba7b-2075f2a1da45"
+  },
+  {
+   "path": "audio/SJ1004._ENSS.wav",
+   "size": 2386952,
+   "sha256": "734a6ada3c2b7023d3f38fc2420974fdc72fa74308f6177bc434fd368ff7683a",
+   "mendeley_file_id": "49e8e9a5-60ce-447d-ac98-7a265350a199"
+  },
+  {
+   "path": "audio/SJ2001_ENSS.wav",
+   "size": 2246918,
+   "sha256": "c07c49d6253de4b0b14201de6eb16a7498cc7c67fc219a6c0c9ec1363222d5b3",
+   "mendeley_file_id": "75ff97e4-1a82-4f2e-a32e-2604107dd5de"
+  },
+  {
+   "path": "audio/SJ2002_ENSS.wav",
+   "size": 2185618,
+   "sha256": "6d9a45259c9738355bae7835d7461ce55601829c71fcc06e1c90bc5d10f87ed2",
+   "mendeley_file_id": "956f6363-3b61-415e-9d59-195b926052d8"
+  },
+  {
+   "path": "audio/SJ2003_ENSS.wav",
+   "size": 2372428,
+   "sha256": "9ce772a7678cb91344b21620d3617b2eb1629815203282fde44f9ffb0a92599f",
+   "mendeley_file_id": "0d4c93f2-2e32-4a43-a041-4c60d93d1332"
+  },
+  {
+   "path": "audio/SJ2004_ENSS.wav",
+   "size": 2626832,
+   "sha256": "6626c1ea43ceb59039117719932303506b49593d8c8953f8b71b205fed690bfe",
+   "mendeley_file_id": "6e03ed97-0abc-4d47-8309-35fbfd77b77d"
+  },
+  {
+   "path": "audio/SJ2005_ENSS.wav",
+   "size": 2183104,
+   "sha256": "40c9a7f9065316618ba929875cba565490754d3cbffa3f9c8ada367c0a86ab23",
+   "mendeley_file_id": "35df323a-9249-4235-b294-68db7608057c"
+  },
+  {
+   "path": "audio/SJ2006_ENSS.wav",
+   "size": 2651096,
+   "sha256": "b6441a9f3e1818bdbc16b94166888c65f363810d845c1a4fca3c84bb492273ad",
+   "mendeley_file_id": "50117130-ed3e-4020-b438-968972fbecff"
+  },
+  {
+   "path": "audio/SJ2007_ENSS.wav",
+   "size": 3054180,
+   "sha256": "5d8d923f0a5bfc70d5d76161116b90cd4b82be24d87fdf110897765515053eca",
+   "mendeley_file_id": "9a18653a-3f07-409e-a30b-10c763f96149"
+  },
+  {
+   "path": "audio/SJ2008_ENSS.wav",
+   "size": 3086400,
+   "sha256": "a198238d6ba537c667e7f7a62d61bc96d18343e45cfee300c9bf16dc67243585",
+   "mendeley_file_id": "ee25fe68-1e50-4247-b0bd-91cc31ce5b05"
+  },
+  {
+   "path": "audio/SJ2009_ENSS.wav",
+   "size": 2297142,
+   "sha256": "b80a165d7af6c74835c6bb2df9aae7f1949cc90ee76cb899a6eaaa565224f0e3",
+   "mendeley_file_id": "8811de72-e633-40b1-b8b2-059478483fa6"
+  },
+  {
+   "path": "audio/SJ2010_ENSS.wav",
+   "size": 2761900,
+   "sha256": "6a1eaa7b6141520fd008f71d2cc8b39b54d0904ccd6483ab348f2d2b183ebd81",
+   "mendeley_file_id": "8b325239-313d-4d52-aecc-08555c66e9e7"
+  },
+  {
+   "path": "audio/SJ2011_ENSS.wav",
+   "size": 2550260,
+   "sha256": "948a8dd1895709a4f1f634eb99d53e3e834aed6e5d9df25bac7a45810db04b27",
+   "mendeley_file_id": "c6cef740-07a3-47a3-a401-37faf02c7dcf"
+  },
+  {
+   "path": "audio/SJ2012_ENSS.wav",
+   "size": 2661702,
+   "sha256": "fcea0995b9d503300cb4aa79a8d6ae164cc4d2762a279891bd58b53ad1710ce0",
+   "mendeley_file_id": "2e1c81fb-f2bc-4a1e-984a-7a7e9a2ed489"
+  },
+  {
+   "path": "audio/SJ2013_ENSS.wav",
+   "size": 2305350,
+   "sha256": "8e9ae8dcac271642652bffc3dc915511bfcb8a49c446764aad2574e9192ae1f2",
+   "mendeley_file_id": "bb1ff042-5289-4584-a618-3e1c786c8cf6"
+  },
+  {
+   "path": "audio/SJ2014_ENSS.wav",
+   "size": 2151664,
+   "sha256": "903cfac5a4798dbe8daaf691f44f6015d4da70a6ccc41a61f5c14e9ec0f16a8b",
+   "mendeley_file_id": "b807791d-b312-4979-88ae-72aa4fbe5b8a"
+  },
+  {
+   "path": "audio/SJ2015_ENSS.wav",
+   "size": 2231018,
+   "sha256": "c036e78040c26de059381b12a2d79b8efca43b1298a53a0a8422d5397329886d",
+   "mendeley_file_id": "d07f8b2d-e0da-4785-99f7-1a66ca0ffe2f"
+  },
+  {
+   "path": "audio/SJ2016_ENSS.wav",
+   "size": 2418396,
+   "sha256": "2ec26805a70cb0647cdcb93a2db0cf78768f849854370fefaa355ff16b94bdcf",
+   "mendeley_file_id": "41d9c56c-bdbe-45fd-8e84-6348045c68b8"
+  },
+  {
+   "path": "audio/SJ2017_ENSS.wav",
+   "size": 2537588,
+   "sha256": "cf834164411e1410ed6ea783af8c59326268c54b8d2f62b99832bf299bc123b0",
+   "mendeley_file_id": "e6429b76-6abd-4f26-8b80-53e2efdd3c8f"
+  },
+  {
+   "path": "audio/Sj30001_E_NSS.wav",
+   "size": 1847340,
+   "sha256": "edc61604bb0b8693277ada3cc763c6be929c151e18bd85f8e54ac7670aed2812",
+   "mendeley_file_id": "83a10b7c-cc56-47e9-a36c-7d2359f5b3ac"
+  },
+  {
+   "path": "audio/Sj30002_E_NSS.wav",
+   "size": 1809452,
+   "sha256": "3e610fd85ac1fc0710e15d5ac1a95366c0772d1f5013e66c5bec5057a6d0f6b2",
+   "mendeley_file_id": "df4fde7f-c68c-4ecf-afcd-1b3532e93eaa"
+  },
+  {
+   "path": "audio/Sj30003_E_NSS.wav",
+   "size": 2116652,
+   "sha256": "11d7c187645e594c78e77209eb79bb89a17065ca1a79fb6199f3c5a5931eed17",
+   "mendeley_file_id": "452911e1-0578-4aa9-9820-56d7c214bb63"
+  },
+  {
+   "path": "audio/Sj30004_E_NSS.wav",
+   "size": 2121896,
+   "sha256": "45da57251d9c037637422e67646ebf0926d5cd29827f5d229a5d5adcf15126ef",
+   "mendeley_file_id": "4dbcde7d-1205-4e4d-a628-2abba80650b4"
+  },
+  {
+   "path": "audio/Sj30005_E_NSS.wav",
+   "size": 2269228,
+   "sha256": "9149227f10a0865d3317f344aabdd92504a706ae84e03712469cb1a53a326454",
+   "mendeley_file_id": "21d76a9f-d023-4290-92da-88ce283b8fd9"
+  },
+  {
+   "path": "audio/Sj30006_E_NSS.wav",
+   "size": 2320428,
+   "sha256": "c88e0775e3047ef4b5fbf74dfd20f9d78eb5b7f399ace360ea4a7f8feab695b7",
+   "mendeley_file_id": "caf9523e-0b0e-4033-817a-90fe6f449c1b"
+  },
+  {
+   "path": "audio/Sj30007_E_NSS.wav",
+   "size": 2314702,
+   "sha256": "469b6e8321e5b46f068d6d16105de806fb12c118e1d70a794f9f863e93906fdb",
+   "mendeley_file_id": "d62d2c6c-42a3-4125-b143-3132e7efab4c"
+  },
+  {
+   "path": "audio/Sj30008_E_NSS.wav",
+   "size": 2534444,
+   "sha256": "539ab10bfb7311a17d664d60d24a629cccbfbf3c315e4d3e77455a9563807bc6",
+   "mendeley_file_id": "e0ea9a6f-ce81-462f-9876-bf4f22d9e5a4"
+  },
+  {
+   "path": "audio/SJ4001_eNSS.wav",
+   "size": 2049192,
+   "sha256": "f2278306b8d42dda560cc811958e9c9e8eddf69cd704356294ad29fd04e1d788",
+   "mendeley_file_id": "9853e1fe-2b04-461e-bbce-ffd7421bccd1"
+  },
+  {
+   "path": "audio/SJ4002_eNSS.wav",
+   "size": 2631988,
+   "sha256": "03a8c45013f6d6261f7d9a25b0b26b1fca9333be47b7e4705450d4454a556bb5",
+   "mendeley_file_id": "ca4111aa-8d50-4948-b935-4276325fa477"
+  },
+  {
+   "path": "audio/Sj4003_eNSS.wav",
+   "size": 2803198,
+   "sha256": "0ebbe5cd2af639803cd8d745207072d35ea53827109289322834c5adfe339051",
+   "mendeley_file_id": "20a3840a-cde2-478e-9844-689ee9a58294"
+  },
+  {
+   "path": "audio/Sj4004_eNSS.wav",
+   "size": 2646176,
+   "sha256": "9ad7bb2d5f25e92221dae59a7928bad4b35ec4a43f09a0b9bb551e1be8b96254",
+   "mendeley_file_id": "b30f95db-033b-4308-ba09-800655d1fd18"
+  },
+  {
+   "path": "audio/Sj4005_eNSS.wav",
+   "size": 2919096,
+   "sha256": "1de3e08b85099778b41eddf618b1d5c4f080854d56431a00c321e839551cb916",
+   "mendeley_file_id": "10b11871-0cbd-4dfe-bc97-c2108a960046"
+  },
+  {
+   "path": "audio/Sj4006_eNSS.wav",
+   "size": 2854286,
+   "sha256": "204b705ca8e50e3f072d66bd01504fe48f15bacb81d28d22fb865fa260c6d831",
+   "mendeley_file_id": "b4419486-7a50-4d92-8556-6ef2eea7961d"
+  },
+  {
+   "path": "audio/Sj4007_eNSS.wav",
+   "size": 2192760,
+   "sha256": "17bcba7f6cc09bd05c931808618fd2723c28ac550a90c887d0db7d711d5cc53b",
+   "mendeley_file_id": "99767c07-cbed-4714-a6bf-2e1b6d9124e9"
+  },
+  {
+   "path": "audio/Sj4008_ENSS.wav",
+   "size": 2231158,
+   "sha256": "ec82e79c98214b1797b5718112ed82bde233c0bf4012ba1710727e2b3173a917",
+   "mendeley_file_id": "6c7f325e-3158-4bc6-9974-bb21eb526200"
+  },
+  {
+   "path": "audio/sj4009_ENSS.wav",
+   "size": 2546142,
+   "sha256": "8666c7f5af18d4818e9beb998ba9eb0e30f9608afab0d921f7e2d9e6e003877b",
+   "mendeley_file_id": "e0902152-ba42-4895-9faf-1e772d77b4dd"
+  },
+  {
+   "path": "audio/Sj5001ENSS.wav",
+   "size": 2673194,
+   "sha256": "0052d14c80fbf65e3cc156a329a0f6adb2ad0202bceafde1759f2c94a8d58da6",
+   "mendeley_file_id": "63babe55-9d44-4fcb-bd69-15f1f7ea8411"
+  },
+  {
+   "path": "audio/SJ5002ENSS.wav",
+   "size": 2350312,
+   "sha256": "0c4e5b29467dc3b3f75ad0938367c784057ddcbdc6a00bc4b46e102a6bf050f7",
+   "mendeley_file_id": "3ae5496f-8613-4ced-87a5-8731fb583285"
+  },
+  {
+   "path": "audio/SJ5003ENSS.wav",
+   "size": 2915860,
+   "sha256": "51fe4c27e7307bcad43d7202672bd2dac676074e3fb1c4a6b7dd193683190aa1",
+   "mendeley_file_id": "4f48e421-e4e1-483a-b237-2bde093396f4"
+  },
+  {
+   "path": "audio/SJ5004ENSS.wav",
+   "size": 2632720,
+   "sha256": "6f80170e269f86ec6407b7654134fed8277bd347c38d2b88d394437b997ff084",
+   "mendeley_file_id": "016b5d3e-830d-4f48-b7fa-8dd40fbef617"
+  },
+  {
+   "path": "audio/SJ5005ENSS.wav",
+   "size": 2091922,
+   "sha256": "58ea8a188e197b66446b267beae99630f6f093dc809ba48c247a6343c5f58846",
+   "mendeley_file_id": "5b1cf574-bb87-453a-890c-a4213899e2c2"
+  },
+  {
+   "path": "audio/SJ5006ENSS.wav",
+   "size": 2001448,
+   "sha256": "2f8512d7d6b70d8a6fd084a7480e92b701737f1ffe0936a56ca4d13c911a40ac",
+   "mendeley_file_id": "2f09cc97-e51a-472e-a1e4-d9a54011c38b"
+  },
+  {
+   "path": "audio/Sj5007ENSS.wav",
+   "size": 2058424,
+   "sha256": "9035498c10b79047ddf83836050b657173311c5ec7992192cac1dd9b3600d2a5",
+   "mendeley_file_id": "eff3d8ae-68b1-4f3c-ad1c-697d4dff8f07"
+  },
+  {
+   "path": "audio/SJ5008ENSS.wav",
+   "size": 2244002,
+   "sha256": "7e0cf3c95377fdb2f0e2885172357bb08aebfb7d4f077a48746918e676ae81c0",
+   "mendeley_file_id": "9d9bb766-c563-4991-8b39-e876b8c92ccd"
+  },
+  {
+   "path": "audio/SJ5009ENSS.wav",
+   "size": 2645140,
+   "sha256": "76b946ff37831d0a4eae9da69c24e56207d52a1c9578fda583457515dbb1af8e",
+   "mendeley_file_id": "2638404d-6a7b-4b11-bbc3-8edba51d1954"
+  },
+  {
+   "path": "audio/SJ5010ENSS.wav",
+   "size": 1899198,
+   "sha256": "0c9d099fcf69fbd89be237917f8bd3007c55fe046a3a34acbb816439e13cfad3",
+   "mendeley_file_id": "877c7122-e435-44b2-9381-2faf4ed7199d"
+  },
+  {
+   "path": "audio/SJ5011ENSS.wav",
+   "size": 2247076,
+   "sha256": "d79535fce15c26dd45d4638e3cd405a2cef42757330fe45b075585ac0bde3729",
+   "mendeley_file_id": "0c15633c-6814-4cca-a1dc-357eb18830d0"
+  },
+  {
+   "path": "audio/SJ5012ENSS.wav",
+   "size": 2751756,
+   "sha256": "9ba0e7a5853f17d0d2539aa0703ae41883eed33ddb7c86def216c8849c6ed3e4",
+   "mendeley_file_id": "ef5b654c-f6f3-4adc-93bd-f94606c0eae3"
+  },
+  {
+   "path": "audio/SJ5014ENSS.wav",
+   "size": 2696884,
+   "sha256": "eb11d0a680ba68af24e7ba1aa75e633a344bb0e967201d4e0d00aa851099b45a",
+   "mendeley_file_id": "058b455d-284c-49f8-af20-46651293808a"
+  },
+  {
+   "path": "audio/SJ5015ENSS.wav",
+   "size": 2929014,
+   "sha256": "2ad10ba38c5125946e70baf67bff5e44bc152d42f817006c59ef67ce772b8f82",
+   "mendeley_file_id": "a6e5b2a4-4c28-4067-92ff-d92dddde02d6"
+  },
+  {
+   "path": "audio/SJ5016ENSS.wav",
+   "size": 2816374,
+   "sha256": "6dc64e8fda849af8274f63dbeff5056f8d55046f962f6805be0fa95cec38a9e5",
+   "mendeley_file_id": "67f96de7-8f31-4267-8344-395d95ac1a91"
+  },
+  {
+   "path": "audio/SJ5017ENSS.wav",
+   "size": 2604908,
+   "sha256": "3ec76bd4279aecc9620e4f659e74d47e65f340d54afe31de0ed8cb08bf0f28fd",
+   "mendeley_file_id": "82b78f9f-2ede-430d-b3ec-a88c0eaf555a"
+  },
+  {
+   "path": "audio/SJ5018ENSS.wav",
+   "size": 2834508,
+   "sha256": "0c27f6d607fbfc6570d467186cadbd4cb250d355690515cc0dfed4c87a383a08",
+   "mendeley_file_id": "edd6dbe6-6ddf-4610-80e2-0b3234d57767"
+  },
+  {
+   "path": "audio/SJ5019ENSS.wav",
+   "size": 2859210,
+   "sha256": "b2e946070df40d0a2f18425bd021da110c2674aa9255312da96014e423fec2d6",
+   "mendeley_file_id": "c8264df7-eb0b-454a-a833-f5e6c4d52bc9"
+  },
+  {
+   "path": "audio/SJ5020ENSS.wav",
+   "size": 2646754,
+   "sha256": "fe224806a66b648dc942d0846ce04983a626197e6499fa86091c2e4342334963",
+   "mendeley_file_id": "9a7253e7-ee94-418b-96cb-a833dd64c66e"
+  },
+  {
+   "path": "audio/SJ5021ENSS.wav",
+   "size": 2717170,
+   "sha256": "dc0098524d72496508a250d2f246a7535230a5959a69e04c9b2ddfcd3bd250bc",
+   "mendeley_file_id": "ba20eccc-591a-4eb8-a465-a946ae84517c"
+  },
+  {
+   "path": "audio/Sj6001_ENSS.wav",
+   "size": 2267734,
+   "sha256": "c499bd150d4af796538f1553dc73813e60812305d1c3d50d6274e27a4c8c974e",
+   "mendeley_file_id": "94ed5b36-84d8-4116-910f-8ce82dc9a8ed"
+  },
+  {
+   "path": "audio/Sj6002_ENSS.wav",
+   "size": 2340914,
+   "sha256": "f399a89d6f635aa93e095cad742f345e391205997552541b32526ea0e20515c6",
+   "mendeley_file_id": "59381fbb-31b1-47c3-be81-5aef62558ea6"
+  },
+  {
+   "path": "audio/Sj6003_ENSS.wav",
+   "size": 2161680,
+   "sha256": "b1147303b3ac89fc49bc2199370200e179a26dc868d96fef24a329b91a6f190d",
+   "mendeley_file_id": "204201c6-dc53-4b05-931b-d9c9a42d1832"
+  },
+  {
+   "path": "audio/Sj6004_ENSS.wav",
+   "size": 2441590,
+   "sha256": "3568d23881c47922390d2515ea8a04b97ddf0a90b0e8d6bb4b438b79d8f3516a",
+   "mendeley_file_id": "91ec44ad-4e96-4697-95ea-175c4b827705"
+  },
+  {
+   "path": "audio/Sj6005_ENSS.wav",
+   "size": 2337054,
+   "sha256": "e63630c23b6c7e5b78059e329465143ab6e38ff6bd3c60581c66f48524c42c2b",
+   "mendeley_file_id": "e36e0422-a9be-422f-a718-3e735f1e5133"
+  },
+  {
+   "path": "audio/Sj6006_ENSS.wav",
+   "size": 2489630,
+   "sha256": "b29dbe533f9051e36028345a640e6a06819dd47b4502c0fb40e515fd8d7e7f3f",
+   "mendeley_file_id": "2e17c3aa-8841-4ab5-9e28-abe1c0c81959"
+  },
+  {
+   "path": "audio/Sj6007_ENSS.wav",
+   "size": 2093998,
+   "sha256": "59bba3a5cd8d67dbb41cf317e9e8b3a43435a462f044d590710abc0f7dd2c2c2",
+   "mendeley_file_id": "e6917aab-404b-422c-8414-fd3f7cac53c3"
+  },
+  {
+   "path": "audio/sj6008_ENSS.wav",
+   "size": 2024448,
+   "sha256": "f7bc21062861aea527c1515593a09e7fe7f3b88c345f6d1960e3a7c024f5e718",
+   "mendeley_file_id": "02bf9681-40cd-4790-ac61-353f2e5141b8"
+  },
+  {
+   "path": "audio/SJ7001_ENSS.wav",
+   "size": 2870662,
+   "sha256": "f81b58f4556e9c7e2b719e6b8f646a80a7c212d8f142135cebf146d81d2d0603",
+   "mendeley_file_id": "b58a5b9f-4401-4060-a818-cd62326bfd8a"
+  },
+  {
+   "path": "docs/database overview.pdf",
+   "size": 85688,
+   "sha256": "af8c6173a00c0c8d41ec8092c6b6de4509c25169f50606914a5de4118adcab86",
+   "mendeley_file_id": "a8d71a3d-cda7-4121-9dc5-5dcda3b225b4"
+  },
+  {
+   "path": "ratings/cape_v_breathiness_only.xlsx",
+   "size": 30140,
+   "sha256": "55b5dcbbc6d9dd5e8392d727e2fb6faa18784adc82a5d33c7bde40c23b6d5124",
+   "mendeley_file_id": "7ed904d8-717b-4360-8ef9-3e7e75ddd9fc"
+  },
+  {
+   "path": "ratings/cape_v_loudness_only.xlsx",
+   "size": 29915,
+   "sha256": "2b47d20045aadac923d77c4cab4246b3e7336082f2ee3711c8e034e66a557730",
+   "mendeley_file_id": "bbb8fed0-ada1-42f0-a5fa-0d82679f1828"
+  },
+  {
+   "path": "ratings/cape_v_pitch_only.xlsx",
+   "size": 29678,
+   "sha256": "f36b52d21c802b6a1a5bfcbe40acb744c3cce8de850687a5b779d1554b082a1d",
+   "mendeley_file_id": "34f91015-7ba1-42d7-9c20-95176dff7729"
+  },
+  {
+   "path": "ratings/cape_v_roughness_only.xlsx",
+   "size": 30449,
+   "sha256": "736563aee66dfcfca5aed2081a3a6ed31bc04a37db683313a74ae93c817f2620",
+   "mendeley_file_id": "221aaa15-b2b1-42c5-b74a-9e1b23a7f54a"
+  },
+  {
+   "path": "ratings/cape_v_severity_only.xlsx",
+   "size": 30749,
+   "sha256": "6c2e4872ebdce03e345ce4913af91922e66ae2fc39bdb754a51f6e914ec039d6",
+   "mendeley_file_id": "607075f9-fe5c-4b02-a162-7100b3f0e5be"
+  },
+  {
+   "path": "ratings/cape_v_strain_only.xlsx",
+   "size": 30349,
+   "sha256": "1176d49ce32777ff58c134b8e5445962c3b7cc858a790bc8536c25e3a609c6b2",
+   "mendeley_file_id": "fa362065-7dc4-4c1f-b734-17dde01fc170"
+  },
+  {
+   "path": "ratings/Demographics.xlsx",
+   "size": 28668,
+   "sha256": "881b2ad4f25ffdcf47766e54881de87ebb7a75b2c454c31fa4f14238b6df4a6c",
+   "mendeley_file_id": "81b8f741-c300-4be4-98d6-7f023690b5eb"
+  },
+  {
+   "path": "ratings/grbas_asthenia_only.xlsx",
+   "size": 30706,
+   "sha256": "f3ad4956767b17f525b7ba3687bc02ba89c8a2e93187cf28ef494a1decea99bd",
+   "mendeley_file_id": "628eedda-631c-4d0a-8214-7ff6725d9776"
+  },
+  {
+   "path": "ratings/grbas_breathiness_only.xlsx",
+   "size": 30752,
+   "sha256": "c7ea05916eda3ed5dbbcf412f81eccd3630d69f4d935f61c56fda7c86ff4b7de",
+   "mendeley_file_id": "be16be3f-7d8a-4c2d-8cf4-d37f63c47aa3"
+  },
+  {
+   "path": "ratings/grbas_grade_only.xlsx",
+   "size": 30913,
+   "sha256": "1022a2b8badff026d09d809379f8ab6cf3e43b7dd98eb5a7e48a082acbf237f2",
+   "mendeley_file_id": "a9b56970-d064-4bcd-a39d-5478cc6cbd0d"
+  },
+  {
+   "path": "ratings/grbas_roughness_only.xlsx",
+   "size": 30874,
+   "sha256": "589c4ec0e86043b2a9f1aa49451e6771ace5d6e0a4dc599812df408cb037a16b",
+   "mendeley_file_id": "2b82cdea-6edb-45c4-b3c4-d227b2a35263"
+  },
+  {
+   "path": "ratings/grbas_strain_only.xlsx",
+   "size": 30767,
+   "sha256": "d790c985c01d31c87776ed53ca7589ab901665bbad44275c9f881419e585c897",
+   "mendeley_file_id": "3466cf9d-fc85-426e-963c-cf27a6dc6db8"
+  },
+  {
+   "path": "ratings/Ratings_both_scales.xlsx",
+   "size": 211886,
+   "sha256": "74d42027200f2d383d497e7e44639b3059ec97fd67f8f03f1be4eee0d68aa596",
+   "mendeley_file_id": "c3aa3086-097c-4354-a88c-310158712b7a"
+  }
+ ],
+ "doi_cited": "10.17632/9dz247gnyb.4",
+ "version_note": "Downloaded from version 1. On 2026-11-02 the Mendeley public API listed the same 296 audio files and 13 rating spreadsheets with identical SHA-256 in version 4 (published 2022-09-08); only the overview PDF differs ('database overview v4.pdf', not downloaded). Cite version 4."
+}

@@ -1,0 +1,26 @@
+# thesis.toml -- settings read by thesis-cli (https://github.com/recklight/thesis-template).
+# Short report in the IEEEtran journal layout, pdfLaTeX + BibTeX.
+
+[project]
+main = "main.tex"
+
+[build]
+engine = "pdflatex"
+use_latexmk = true
+output_dir = "build"
+
+[bib]
+files = ["refs.bib"]
+style = "IEEEtran"
+
+[figures]
+dirs = []
+
+[template]
+# The thesis template's watermark and TOC settings do not apply to this report.
+watermark = "off"
+toc_style = "arabic"
+generated_file = "build/generated.tex"
+
+[deps]
+cjk_font = "TeX Gyre Termes"

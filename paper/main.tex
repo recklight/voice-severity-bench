@@ -1,0 +1,116 @@
+% Automatic rating of dysphonia severity from the sustained vowel: short report (IEEEtran journal layout).
+% Compile with pdfLaTeX + BibTeX; every number in the text is a macro from numbers.tex or release.tex.
+\documentclass[journal]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+
+\input{numbers.tex}
+\input{release.tex}
+
+\begin{document}
+
+\title{Automatic Rating of Dysphonia Severity From the Sustained Vowel: A Frozen-Plan Comparison With Clinical Measures and a Single Rater}
+
+\author{Fu-Kai~Chuang}
+
+\maketitle
+
+\begin{abstract}
+Automatic ratings of dysphonia severity on the Perceptual Voice Qualities Database have been reported as point estimates. On \filesPrimary{} sustained vowels from this database, each rated for severity on the Consensus Auditory-Perceptual Evaluation of Voice by three or four clinicians twice, we compared seven feature sets with ridge regression under repeated cross-validation grouped by speaker: recording conditions, two sets of cepstral coefficients, clinical acoustic measures and three frozen self-supervised speech models. An analysis plan with fourteen contrasts and a decision rule requiring a corrected resampled t test and a paired bootstrap to agree was frozen before any acoustic feature was related to a rating. The best model reached a root-mean-square error of \eoneAfiveRmse{} points (95\% confidence interval \eoneAfiveRmseLow{} to \eoneAfiveRmseHigh{}), against \eoneMzeroRmse{} for the recording conditions alone, and \cEstablished{} of the \cTotal{} contrasts were established. The self-supervised models outperformed the larger cepstral-coefficient set, but their advantage over the clinical measures was inconclusive because the two tests disagreed. The two best models could not be distinguished from a single clinician, and every model stayed far from the ceiling set by rater agreement.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Voice quality, dysphonia severity, CAPE-V, self-supervised speech representations, inter-rater reliability, model evaluation.
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+\IEEEPARstart{A}{uditory-perceptual} evaluation is still the reference for judging voice quality. The Consensus Auditory-Perceptual Evaluation of Voice (CAPE-V) asks a clinician to listen to sustained vowels, sentences and conversation and to mark overall severity and five other attributes on 100-mm visual analog scales~\cite{kempster2009capev}. Clinicians do not agree perfectly: on the Perceptual Voice Qualities Database (PVQD)~\cite{walden2022pvqd,walden2022pvqddata}, the severity rating of one clinician deviates from the mean of the others by \oneRaterRmse{} points root-mean-square on the 0--100 scale. An automatic rating at least as close to the panel as one clinician would help with screening and follow-up, provided its accuracy is measured in a way a clinic can rely on.
+
+On PVQD, Lin \emph{et al.}~\cite{lin2024lightly} predicted severity from the sustained /a/ with a root-mean-square error (RMSE) of \linSeverityRfRmse{} and a Pearson correlation of \linSeverityRfR{}, using a random forest on jitter, shimmer, harmonics-to-noise ratio, zero-crossing rate, age and sex and one test set of 56 recordings. VOQANet~\cite{ariyanti2026voqanet} fed self-supervised learning (SSL) representations, alone or with jitter, shimmer and the harmonics-to-noise ratio, to an attention-based regressor and reported RMSEs near 10 for the /a/ (\vqWhisperRmse{} and \vqWavLMRmse{} on \vqTestFiles{} test recordings). Both report point estimates. Neither tests whether the differences between feature sets exceed what resampling alone would produce, or compares the models with the agreement among the raters.
+
+This report compares mel-frequency cepstral coefficients (MFCCs), clinical acoustic measures and frozen SSL representations for predicting CAPE-V severity from the sustained /a/ of PVQD. The accuracy itself is not new: the best Pearson correlation here, \eoneAfiveR{}, is at the level Lin \emph{et al.} reported. What the study adds is the evaluation around it: \cTotal{} contrasts decided by two tests that must agree under a plan frozen in advance, a rater ceiling and a single-rater baseline on the same recordings, and checks of the recording group.
+
+\section{Data and Methods}\label{sec:methods}
+
+\subsection{Data, Segmentation and Rater Ceiling}
+PVQD contains \filesTotal{} recordings, each holding the sustained /a/ and the CAPE-V sentences. Each file was rated by three (\ratersThreeFiles{} files) or four (\ratersFourFiles{}) experienced clinicians, each twice; whether the raters always listened to the whole file is not documented. The rater columns denote positions within a file, not the same person across files, so reliability uses one-way random-effects models. The target is the mean of all severity ratings of a file. The five recording groups named in the file names differ in sampling rate, age and severity at the same time: the PT group (\samplePTN{} files in the analysis set) was recorded at 25~kHz, except for one file, with a median age of \samplePTAge{} years and a mean severity of \samplePTSeverity{}; the SJ group (\sampleSJN{} files) at 44.1~kHz, with \sampleSJAge{} years and \sampleSJSeverity{}. A recording-condition baseline is therefore part of every comparison.
+
+The /a/ was located automatically, without access to the ratings: the segmenter prefers the longest steady stretch of at least 1.2~s whose fundamental frequency does not glide, trims 0.1~s at each end and keeps at most the central 3~s. It passed eleven synthetic tests, and after its parameters were fixed, all 30 files drawn at random within recording groups were correct when checked from spectrograms and pitch tracks, not by listening. The \filesNoA{} files without a usable /a/ were flagged rather than forced; in an exploratory check they were more severe than the rest (median \efivejMissingMedian{} against \efivejPrimaryMedian{}, Mann--Whitney $p$\,=\,\efivejP{}). This leaves \filesPrimary{} files in \cvGroups{} speaker groups, nine pairs of PT files with identical demographic records counting as one speaker each.
+
+On these files the ICC(1,$k$) of the severity mean is \icck{} (95\% CI \icckLow{}--\icckHigh{}). The noise left in the mean, $\sqrt{\overline{s^2/k}}$ with $s^2$ the rating variance and $k$ the number of ratings of a file, sets a floor of \noiseFloor{} points RMSE that no model of the mean can beat. For the single-rater baseline, each clinician's mean of two ratings is compared with the mean of the other clinicians on the same file: RMSE \oneRaterRmse{} and Pearson $r$ \oneRaterR{}.
+
+\subsection{Feature Sets and Evaluation}
+Every interval is resampled to 16~kHz and normalized to $-26$~dBFS RMS. M0, the recording conditions (10 values), holds the recording group, a 25-kHz flag, a two-channel flag, and the duration, raw level and noise floor of the whole file. A1 and A2 are 13 MFCCs and the same with first and second differences (MFCC-39), summarized by mean and standard deviation. A3 holds 18 clinical measures from Praat~\cite{boersma2020praat} through Parselmouth~\cite{jadoul2018parselmouth}: fundamental-frequency statistics, jitter, shimmer, the harmonics-to-noise ratio and the smoothed cepstral peak prominence~\cite{maryn2015objective}. A4--A6 are the frozen HuBERT base~\cite{hsu2021hubert}, WavLM base+~\cite{chen2022wavlm} and Whisper-small encoder~\cite{radford2023whisper}, each hidden state summarized by mean and standard deviation over time. B0, the training mean, is a reference row and is not tested.
+
+Inside each training fold, every set goes through block selection for the SSL sets, median imputation with missing-value indicators, standardization and ridge regression; the layer (or the average of all layers) and the penalty are chosen by an inner five-fold grouped cross-validation~\cite{varma2006bias}. Ridge regression is used on purpose: with fewer than 300 recordings the question is what the representations contain, not how much a larger model could fit. The outer loop is \outerSplits{}-fold cross-validation repeated \repeats{} times, with speaker groups kept together~\cite{saeb2017need} and the same splits for every set, so the errors are paired file by file. The point estimate is the mean over repetitions of the RMSE of the pooled out-of-fold predictions, with a paired bootstrap over the \cvGroups{} groups (\resamples{} resamples) for the confidence intervals~\cite{davison1997bootstrap}.
+
+\subsection{Contrasts and Decision Rule}
+Fourteen contrasts $\Delta = \mathrm{RMSE}_1 - \mathrm{RMSE}_2$, negative when the first set is better, form one Holm family~\cite{holm1979simple}: each acoustic set against M0 (six), every other acoustic set against A3 (five), and each SSL set against A2 (three). The corrected resampled $t$ test of Nadeau and Bengio~\cite{nadeau2003inference} uses the 50 fold-level differences and inflates their variance for the overlap between training sets; its $p$ values are Holm-adjusted. A contrast is \emph{established} only if the Holm-adjusted $p$ is below 0.05, the bootstrap 95\% interval lies entirely on one side of zero, and both point the same way; it is \emph{substantial} if $|\Delta|$ is at least \margin{} points, the smallest difference the plan treats as meaningful. Two sets are \emph{equivalent} if the bootstrap 90\% interval lies inside $\pm$\margin{} points, a reading not corrected for multiplicity. Anything else is \emph{inconclusive}. Outside the Holm family but specified in the plan, each model is also scored against the same leave-one-rater-out references as the single rater; $\Delta_{\mathrm{rater}}$, the model RMSE minus the single-rater RMSE, gets a bootstrap interval in which all rater pairs of a file are resampled together.
+
+\subsection{Frozen Plan and Released Copies}\label{sec:frozen}
+Before any acoustic feature was related to a rating, the written plan, its machine-readable copy, the experiment scripts, the model weights and the data manifest were hashed with SHA-256 (plan \analysisPlanSha{}\ldots), and the code version was recorded as a git commit and tree, together with the seeds; every experiment refused to run on a mismatch. The data audit had already shown how recording group and severity were related, which is why M0 is in the plan. The plan was not deposited in a public registry, so its timing cannot be verified from outside, and it is described as frozen and pre-specified. The code was released afterwards under a new package name, with support for class labels added. The released copies of the code, the plan and the experiment scripts were made from the frozen files by renaming the package, so the recorded hashes apply to the frozen files, not to the released copies; the author keeps the frozen files and a record that maps the two. Exploratory analyses named in the plan appear here as the recording-group and sensitivity analyses, the comparison of flagged files and one secondary-target average; post hoc analyses are marked where they appear. The analysis used scikit-learn \versionScikitLearn{}~\cite{pedregosa2011scikit}, PyTorch \versionTorch{} and Parselmouth \versionPraatParselmouth{} on a CPU.
+
+\section{Results}\label{sec:results}
+
+\subsection{Primary Comparison}\label{sec:primary}
+WavLM had the lowest RMSE, \eoneAfiveRmse{} points (95\% CI \eoneAfiveRmseLow{}--\eoneAfiveRmseHigh{}), against \eoneAthreeRmse{} for the clinical measures and \eoneMzeroRmse{} for the recording conditions (Table~\ref{tab:primary}).
+
+\begin{table}[!t]
+\centering
+\caption{Primary Results on the Sustained /a/ ($N=\filesPrimary{}$). RMSE in CAPE-V Points With Bootstrap 95\% CI; $\Delta_{\mathrm{rater}}$ Is the Model RMSE Minus the Single-Rater RMSE Against the Same References}
+\label{tab:primary}
+\input{tables/table_primary.tex}
+\end{table}
+
+Of the \cTotal{} contrasts, \cEstablished{} were established, all of them substantial (Table~\ref{tab:contrasts}). Every acoustic set beat the recording conditions, by \cAtwoMzeroDelta{} (MFCC-39) to \cAfiveMzeroDelta{} points (WavLM), and every SSL set beat MFCC-39, by \cAfourAtwoDelta{} to \cAfiveAtwoDelta{} points.
+
+The five contrasts against the clinical measures were inconclusive. For the SSL sets the point estimates were \cAfourAthreeDelta{} (HuBERT), \cAsixAthreeDelta{} (Whisper) and \cAfiveAthreeDelta{} points (WavLM), and the bootstrap intervals excluded zero (WavLM \cAfiveAthreeLow{} to \cAfiveAthreeHigh{}). The corrected $t$ tests did not: their $p$ values were \cAfourAthreePRaw{}, \cAsixAthreePRaw{} and \cAfiveAthreePRaw{} already before the Holm adjustment. Nor were the sets equivalent: the lower ends of the 90\% intervals, \cAfourAthreeEqLow{} to \cAfiveAthreeEqLow{}, lie beyond $-$\margin{}. The MFCC sets did not differ clearly from the clinical measures either (\cAoneAthreeDelta{} and \cAtwoAthreeDelta{}). Read post hoc with the bootstrap interval alone, \cCiOnly{} contrasts would have been established, the extra three being the SSL sets against the clinical measures, each smaller than the \margin{}-point margin; it changes no verdict.
+
+\begin{table}[!t]
+\centering
+\caption{The \cTotal{} Confirmatory Contrasts ($\Delta$ = RMSE of the First Set Minus the Second, CAPE-V Points). Holm $p$ Is From the Corrected Resampled $t$ Test. ``CI Only'' Is the Verdict if the Bootstrap Interval Alone Were Used, a Post Hoc Reading Outside the Frozen Rule}
+\label{tab:contrasts}
+\input{tables/table_contrasts.tex}
+\end{table}
+
+\subsection{Single Rater, Recording Groups and Sensitivity}
+Against the single-rater references, WavLM was \esixAfiveDelta{} points worse than one clinician (95\% CI \esixAfiveLow{} to \esixAfiveHigh{}) and Whisper \esixAsixDelta{} (\esixAsixLow{} to \esixAsixHigh{}). Both intervals include zero, so these two models cannot be told apart from one clinician; the plan defined no equivalence test here, and the upper ends exceed \margin{} points, so the data do not show that they are as good as one clinician either. HuBERT and the clinical measures were worse than one clinician (Table~\ref{tab:primary}).
+
+Within the PT group alone, every acoustic set still beat the remaining recording-condition features, WavLM by \ptAfiveDelta{} (\ptAfiveLow{} to \ptAfiveHigh{}) and the clinical measures by \ptAthreeDelta{} points (\ptAthreeLow{} to \ptAthreeHigh{}), but the SSL sets no longer differed clearly from MFCC-39. This and the rest of this subsection are exploratory analyses named in the plan. For WavLM the recording group still explained $\eta^2$\,=\,\residualAfiveEta{} of the residual variance (Kruskal--Wallis $p$\,=\,\residualAfiveP{}), and trained on the other four groups it reached \logoAfivePTRmse{} on PT and \logoAfiveSJRmse{} on SJ. In the sensitivity analyses the verdicts held, apart from MFCC-13 against the clinical measures turning equivalent, when the target was the first rating session only (\sensEfivedFirstSessionSame{} the same), when flagged intervals or files were removed, and when every file formed its own group; in the smaller subsets (PT only \sensEfiveaPtOnlySame{}, women \sensEfivecFemaleSame{}, men \sensEfivecMaleSame{}) established contrasts turned inconclusive.
+
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Feature Sets and the Clinic}
+Whether the SSL representations are better than the clinical measures cannot be decided from these data: the point estimates are already smaller than the difference the plan treats as meaningful, and the two tests disagree. The bootstrap holds the fitted models fixed and resamples only test files, so it leaves out the variability that comes from the training sample, which can make differences look significant when they are not~\cite{nadeau2003inference}; a larger corpus, not a different test, would settle the question. For the clinic, the two best automatic scores from the vowel are shown neither to be worse than one more clinician's rating nor to be as good, and they are no substitute for a panel: every model stays far above the noise floor, so the vowel carries less of the panel's judgement than the panel's own consistency would allow. Because the residuals differ between recording groups, a model trained on PVQD should be tested on recordings from an unseen site before it is used elsewhere.
+
+\subsection{Comparison With Earlier Work}\label{sec:prior}
+These comparisons with published numbers are descriptive and were made after our results were known. Lin \emph{et al.} report severity RMSEs of \linSeverityRfRmse{} for a random forest and \linSeveritySslRmseLow{}--\linSeveritySslRmseHigh{} for fine-tuned SSL models on 56 test files~\cite{lin2024lightly}; the random forest and the best of those models are at the level found here. VOQANet reports lower errors~\cite{ariyanti2026voqanet}, but the two results cannot be compared directly. The publication does not state which CAPE-V attribute is predicted, and its numbers point to a target with a narrower spread than the severity mean: on any test set no predictor has an RMSE below $\sigma_y\sqrt{1-r^2}$, with $\sigma_y$ the standard deviation of the target and $r$ the Pearson correlation, so its RMSEs and correlations (\vqWhisperR{} and \vqWavLMR{}) put the standard deviation of its test target at most at \vqWhisperBound{} and \vqWavLMBound{} points, while the PVQD severity mean has \severitySdPopAll{} over all \filesTotal{} files, and \severitySdDroponethree{} without the 13 most severe. A narrower target would fit its comparison with the six-attribute averages of Lin \emph{et al.} Even against that average, taken from the exploratory secondary targets, WavLM reaches \sixdimAfiveRmse{} here, about 5 points above VOQANet; with the excluded files and the code unpublished, this gap cannot be traced to the network, the target, the excluded files or the split.
+
+\subsection{Sustained Vowel or Sentences}\label{sec:materials}
+This subsection is post hoc and only suggests hypotheses. On the same files and splits, the SSL models predicted severity better from the CAPE-V sentences than from the vowel, by \ptwocAfiveSentencesDelta{} to \ptwocAsixSentencesDelta{} points (\ptwocAfiveSentencesSd{} to \ptwocAsixSentencesSd{} standard deviations), the direction VOQANet reported at the patient level and in its five-fold means. The lead remained when the differences from a second corpus (target scale, length, pauses and voicing, grade mix, age and sex) were aligned one at a time; aligned all at once, it shrank to \rfourtwooneAfiveD{} to \rfourtwooneAsixD{} standard deviations, \rfourtwooneReading{} by the rule written beforehand, although for Whisper the lead remained. In the only test whose prediction was written down before the labels were opened (also frozen with a local hash), on the Saarbr\"{u}cken Voice Database~\cite{putzer2008svd} with third-party grade labels~\cite{ariaslondono2019grb} (\rthreeSessions{} sessions), the sentence did not beat the vowel (\rthreeAsixD{} to \rthreeAfiveD{} standard deviations in favor of the vowel). The lead is therefore stable within PVQD but did not carry over to an independent corpus. One explanation that fits is that the target follows what the raters heard: PVQD ratings refer to whole files, and when both contexts are rated together the overall severity depends least on the vowel~\cite{maryn2012sustained}.
+
+\subsection{Limitations}\label{sec:limitations}
+The study uses one corpus and only internal validation, and recording group, age and severity are entangled in PVQD. The segmentation was checked from spectrograms, not by listening, and the \filesNoA{} more severe files without a usable vowel are outside the analysis. Percentile bootstrap intervals can be too narrow~\cite{davison1997bootstrap}, which would make the bootstrap side of the rule more lenient. The sensitivity analysis that adds M0 to each feature set did not join M0 to the two MFCC sets and the clinical measures, so for them it repeats the primary analysis; this was found after the results were known and is recorded as a deviation. No power calculation was made, and the models are research tools, not meant for clinical decisions.
+
+\section{Conclusion}\label{sec:conclusion}
+From the sustained vowel, the best automatic severity ratings could not be told apart from one clinician and were not shown to be better than clinical acoustic measures. Studies of automatic voice rating should report a rater ceiling, a single-rater baseline and tests that account for training-set variability next to the point estimate.
+
+\section*{Data and Code Availability}
+PVQD is available under CC BY 4.0~\cite{walden2022pvqddata}. The released copies of the code, the experiment scripts and the analysis plan (Section~\ref{sec:frozen}) are at \repoUrl{}; with the support for class labels added, a rerun of the primary comparison with this code gave the frozen result files byte for byte. \oofStatement{} No audio and no features derived from audio are redistributed.
+
+\section*{Acknowledgment}
+The author thanks The Voice Foundation and the creators of PVQD for making the database public, and the creators of the Saarbr\"{u}cken Voice Database and of its GRB labels. This work received no external funding, and the author declares no competing interests.
+
+Generative AI was used throughout this work. Claude Opus 5.5 (Anthropic), used through Claude Code, with Claude Haiku 5.5 for some auxiliary steps, audited the data and proposed the data-audit decisions; designed and tuned the segmentation; drafted the study design and the analysis plan, including its contrasts and decision rule; ran the frozen experiments; chose, specified and ran the post hoc analyses, writing reading rules for most of them before running them; assessed whether the study should continue, including simulated reviews in the roles of an audio researcher and a voice clinician, which led to the narrowed scope; chose the claims and their evidence levels; wrote all analysis, number-checking and figure scripts; renamed the package and prepared the released repository and its checks; found and checked the literature; and drafted the text of every section, including the abstract, and shortened a longer draft into this report. The author decided the scope of the study, signed off the data-audit decisions and the analysis plan before it was frozen, chose automatic segmentation without a listening check, approved the post hoc rounds and the independent test on a second corpus, decided to continue the study and to resume writing, agreed with the voice-clinician review to center the paper on the primary analysis and to keep the vowel--sentence question to one discussion paragraph, decided to release the study as this short report together with its code, chose the package name and approved the release, and takes full responsibility for the content.
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\end{document}
